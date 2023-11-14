@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -5982,6 +5982,7 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <part name="X1" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" deviceset="MKDSN1,5/3-5,08" device="" package3d_urn="urn:adsk.eagle:package:9641/1"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -6072,6 +6073,10 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <instance part="GND3" gate="1" x="143.51" y="142.24" smashed="yes" rot="R180"/>
 <instance part="+3V4" gate="G$1" x="138.43" y="111.76" smashed="yes" rot="R180">
 <attribute name="VALUE" x="137.16" y="110.49" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R2" gate="G$1" x="137.16" y="132.08" smashed="yes">
+<attribute name="NAME" x="133.35" y="133.5786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.35" y="128.778" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6193,49 +6198,55 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <label x="163.195" y="74.295" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED/IO2" class="0">
+<net name="LED/IO2A" class="0">
 <segment>
-<pinref part="RPI-PICO" gate="U$1" pin="GP2"/>
-<wire x1="54.61" y1="119.38" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
-<label x="43.18" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<label x="130.81" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="138.43" y1="132.08" x2="130.81" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-2" pin="KL"/>
-<wire x1="143.51" y1="132.08" x2="138.43" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="143.51" y1="132.08" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="TA/IO3" class="0">
+<net name="LED" class="0">
 <segment>
-<pinref part="RPI-PICO" gate="U$1" pin="GP3"/>
-<wire x1="54.61" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
-<label x="43.18" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="RPI-PICO" gate="U$1" pin="GP21"/>
+<wire x1="90.17" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
+<label x="96.52" y="93.98" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="132.08" y1="132.08" x2="130.81" y2="132.08" width="0.1524" layer="91"/>
+<label x="130.81" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="TA" class="0">
+<segment>
+<pinref part="RPI-PICO" gate="U$1" pin="GP20"/>
+<wire x1="90.17" y1="91.44" x2="96.52" y2="91.44" width="0.1524" layer="91"/>
+<label x="96.52" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <label x="130.81" y="128.27" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="138.43" y1="128.27" x2="130.81" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="138.43" y1="128.27" x2="140.97" y2="128.27" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="138.43" y1="124.46" x2="138.43" y2="128.27" width="0.1524" layer="91"/>
 <junction x="138.43" y="128.27"/>
 <pinref part="X1" gate="-3" pin="KL"/>
-<wire x1="143.51" y1="128.27" x2="144.78" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="128.27" x2="140.97" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="143.51" y1="128.27" x2="142.24" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="128.27" x2="138.43" y2="128.27" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="202,1,90.17,124.46,U1,RUN,,,,"/>
-<approved hash="202,1,90.17,119.38,U1,ADC_REF,,,,"/>
-<approved hash="104,1,90.17,132.08,U1,3V3(OUT),+3V3,,,"/>
-<approved hash="204,1,90.17,134.62,U1,VSYS,,,,"/>
-<approved hash="204,1,90.17,137.16,U1,VBUS,,,,"/>
-<approved hash="204,1,54.61,68.58,U1,SWGND,,,,"/>
-<approved hash="202,1,54.61,71.12,U1,SWCLK,,,,"/>
-<approved hash="113,1,144.162,133.252,J1,,,,,"/>
+<approved hash="202,1,90.17,124.46,RPI-PICO,RUN,,,,"/>
+<approved hash="202,1,90.17,119.38,RPI-PICO,ADC_REF,,,,"/>
+<approved hash="104,1,90.17,132.08,RPI-PICO,3V3(OUT),+3V3,,,"/>
+<approved hash="204,1,90.17,134.62,RPI-PICO,VSYS,,,,"/>
+<approved hash="204,1,90.17,137.16,RPI-PICO,VBUS,,,,"/>
+<approved hash="204,1,54.61,68.58,RPI-PICO,SWGND,,,,"/>
+<approved hash="202,1,54.61,71.12,RPI-PICO,SWCLK,,,,"/>
+<approved hash="106,1,155.575,89.535,+5V,,,,,"/>
+<approved hash="106,1,163.83,89.535,+5V,,,,,"/>
 </errors>
 </schematic>
 </drawing>
