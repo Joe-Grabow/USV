@@ -18,7 +18,7 @@ def btn_debounce(pin):
     Timer().init(mode = Timer.ONE_SHOT, period = 200, callback = on_pressed)
 
 # button triggering
-btn.irq(handler = btn_debounce, trigger = Pin.IRQ_RISING)
+btn.irq(handler = btn_debounce, trigger = Pin.IRQ_FALLING)
 
 # button evaluation function
 while True:
