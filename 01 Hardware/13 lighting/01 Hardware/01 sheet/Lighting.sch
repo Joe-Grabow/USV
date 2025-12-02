@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,22 +53,22 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bPadExt" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bPadExt" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -1726,280 +1726,6 @@ Updated by Ella Wu, 2019-09-18&lt;BR&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="Eagle_WR-USB (rev24c)">
-<description>&lt;BR&gt;Wurth Elektronik - Electromechanical Components - Connectors - Input/Output connectors - WR-USB&lt;br&gt;
-&lt;Hr&gt;
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
-Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
-Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
-Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
- &lt;br&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2024c, 2024-12-20&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="614105150721" urn="urn:adsk.eagle:footprint:16513835/5" locally_modified="yes">
-<description>&lt;B&gt;WR-COM Micro USB 2.0 Type B Vertical 5 Contacts
-&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;THT, 5 pins</description>
-<wire x1="-3.7" y1="-1.255" x2="-3.7" y2="1.095" width="0.1" layer="51"/>
-<wire x1="-3.7" y1="1.095" x2="3.7" y2="1.095" width="0.1" layer="51"/>
-<wire x1="3.7" y1="-1.255" x2="3.7" y2="1.095" width="0.1" layer="51"/>
-<wire x1="-3.7" y1="-1.255" x2="3.7" y2="-1.255" width="0.1" layer="51"/>
-<wire x1="-3.8" y1="1.195" x2="3.8" y2="1.195" width="0.2" layer="21"/>
-<wire x1="-3.2" y1="-1.355" x2="-1.4" y2="-1.355" width="0.2" layer="21"/>
-<wire x1="1.4" y1="-1.355" x2="3.2" y2="-1.355" width="0.2" layer="21"/>
-<wire x1="-3.85" y1="-0.3" x2="-4.35" y2="-0.8" width="0.1" layer="48"/>
-<wire x1="-4.35" y1="-0.8" x2="-4.85" y2="-0.8" width="0.1" layer="48"/>
-<wire x1="-4.7" y1="-0.65" x2="-4.85" y2="-0.8" width="0.1" layer="48"/>
-<wire x1="-4.85" y1="-0.8" x2="-4.7" y2="-0.95" width="0.1" layer="48"/>
-<wire x1="3.85" y1="-0.3" x2="4.35" y2="-0.8" width="0.1" layer="48"/>
-<wire x1="4.35" y1="-0.8" x2="4.85" y2="-0.8" width="0.1" layer="48"/>
-<wire x1="4.7" y1="-0.65" x2="4.85" y2="-0.8" width="0.1" layer="48"/>
-<wire x1="4.85" y1="-0.8" x2="4.7" y2="-0.95" width="0.1" layer="48"/>
-<pad name="1" x="-1.3" y="0.125" drill="0.44"/>
-<pad name="2" x="-0.65" y="-0.875" drill="0.44"/>
-<pad name="3" x="0" y="0.125" drill="0.44"/>
-<pad name="4" x="0.65" y="-0.875" drill="0.44"/>
-<pad name="5" x="1.3" y="0.125" drill="0.44"/>
-<pad name="S1" x="-3.575" y="-0.095" drill="0.35" diameter="0.97" shape="long" rot="R90"/>
-<pad name="S2" x="3.575" y="-0.095" drill="0.35" diameter="0.97" shape="long" rot="R90"/>
-<text x="0" y="1.7" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.2" size="1.27" layer="27" ratio="13" rot="SR0" align="bottom-center">&gt;VALUE</text>
-<text x="-5" y="-1.05" size="0.254" layer="48" align="bottom-right">Milling Layer
-the hole size should 
-follow the Milling Layer</text>
-<text x="5" y="-1.05" size="0.254" layer="48">Milling Layer
-the hole size should 
-follow the Milling Layer</text>
-<circle x="-2.2" y="0.105" radius="0.1" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-4.25" y="-1.555"/>
-<vertex x="4.25" y="-1.555"/>
-<vertex x="4.25" y="1.395"/>
-<vertex x="-4.25" y="1.395"/>
-</polygon>
-<polygon width="0.1" layer="46">
-<vertex x="3.5450875" y="-0.76821875"/>
-<vertex x="3.5949125" y="-0.76821875"/>
-<vertex x="3.642690625" y="-0.7541875"/>
-<vertex x="3.684596875" y="-0.72725625"/>
-<vertex x="3.717221875" y="-0.68960625"/>
-<vertex x="3.7379125" y="-0.644303125"/>
-<vertex x="3.745" y="-0.59500625"/>
-<vertex x="3.745" y="0.40500625"/>
-<vertex x="3.7379125" y="0.454303125"/>
-<vertex x="3.717221875" y="0.49960625"/>
-<vertex x="3.684596875" y="0.53725625"/>
-<vertex x="3.642690625" y="0.5641875"/>
-<vertex x="3.5949125" y="0.57821875"/>
-<vertex x="3.5450875" y="0.57821875"/>
-<vertex x="3.497309375" y="0.5641875"/>
-<vertex x="3.455403125" y="0.53725625"/>
-<vertex x="3.422778125" y="0.49960625"/>
-<vertex x="3.4020875" y="0.454303125"/>
-<vertex x="3.395" y="0.40500625"/>
-<vertex x="3.395" y="-0.59500625"/>
-<vertex x="3.4020875" y="-0.644303125"/>
-<vertex x="3.422778125" y="-0.68960625"/>
-<vertex x="3.455403125" y="-0.72725625"/>
-<vertex x="3.497309375" y="-0.7541875"/>
-</polygon>
-<polygon width="0.1" layer="46">
-<vertex x="-3.6049125" y="-0.76821875"/>
-<vertex x="-3.5550875" y="-0.76821875"/>
-<vertex x="-3.507309375" y="-0.7541875"/>
-<vertex x="-3.465403125" y="-0.72725625"/>
-<vertex x="-3.432778125" y="-0.68960625"/>
-<vertex x="-3.4120875" y="-0.644303125"/>
-<vertex x="-3.405" y="-0.59500625"/>
-<vertex x="-3.405" y="0.40500625"/>
-<vertex x="-3.4120875" y="0.454303125"/>
-<vertex x="-3.432778125" y="0.49960625"/>
-<vertex x="-3.465403125" y="0.53725625"/>
-<vertex x="-3.507309375" y="0.5641875"/>
-<vertex x="-3.5550875" y="0.57821875"/>
-<vertex x="-3.6049125" y="0.57821875"/>
-<vertex x="-3.652690625" y="0.5641875"/>
-<vertex x="-3.694596875" y="0.53725625"/>
-<vertex x="-3.727221875" y="0.49960625"/>
-<vertex x="-3.7479125" y="0.454303125"/>
-<vertex x="-3.755" y="0.40500625"/>
-<vertex x="-3.755" y="-0.59500625"/>
-<vertex x="-3.7479125" y="-0.644303125"/>
-<vertex x="-3.727221875" y="-0.68960625"/>
-<vertex x="-3.694596875" y="-0.72725625"/>
-<vertex x="-3.652690625" y="-0.7541875"/>
-</polygon>
-</package>
-</packages>
-<packages3d>
-<package3d name="614105150721" urn="urn:adsk.eagle:package:16513903/7" type="model">
-<description>&lt;B&gt;WR-COM Micro USB 2.0 Type B Vertical 5 Contacts
-&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;THT, 5 pins</description>
-<packageinstances>
-<packageinstance name="614105150721"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="USB2.0_MICRO_TYPEB">
-<description>Micro USB 2.0 Type B</description>
-<pin name="GND" x="-10.16" y="-5.08" length="middle" direction="pas"/>
-<pin name="ID" x="-10.16" y="-2.54" length="middle" direction="pas"/>
-<pin name="D+" x="-10.16" y="0" length="middle" direction="pas"/>
-<pin name="D-" x="-10.16" y="2.54" length="middle" direction="pas"/>
-<pin name="VBUS" x="-10.16" y="5.08" length="middle" direction="pas"/>
-<pin name="SHIELD" x="-10.16" y="-7.62" visible="pad" length="middle" direction="pas"/>
-<wire x1="-5.08" y1="-6.985" x2="-5.08" y2="6.985" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="6.985" x2="4.445" y2="6.985" width="0.254" layer="94"/>
-<wire x1="4.445" y1="-6.985" x2="-5.08" y2="-6.985" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94" style="shortdash"/>
-<wire x1="4.445" y1="6.985" x2="4.445" y2="-6.985" width="0.254" layer="94"/>
-<text x="0" y="8.382" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.16" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-<text x="6.51" y="-0.83" size="1.016" layer="94" rot="R90">shield</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="614105150721" prefix="J">
-<description>&lt;B&gt;WR-COM Micro USB 2.0 Type B Vertical 5 Contacts
-&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
-
-&lt;b&gt;General Information&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Operating Temperature	-40 °C up to +85 °C
-&lt;BR&gt;Compliance	RoHS
-&lt;BR&gt;Durability	10 000 Mating cycles
-&lt;BR&gt;Quality Class	10 000 Mating cycles
-&lt;BR&gt;Connector Type	Micro USB
-&lt;BR&gt;Gender	Receptacle
-&lt;BR&gt;Type	Vertical
-&lt;BR&gt;&lt;BR&gt;
-
-&lt;b&gt;Electrical Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;IR	1.8 A
-&lt;BR&gt;Working Voltage	30 V (AC)
-&lt;BR&gt;Withstanding Voltage	100 V (AC)
-&lt;BR&gt;Contact Resistance	30 mΩ
-&lt;BR&gt;&lt;BR&gt;
-
-&lt;b&gt;Material Properties&lt;/b&gt;&lt;BR&gt;
-&lt;BR&gt;Insulator Material	LCP
-&lt;BR&gt;Insulator Flammability Rating	UL94 V-0
-&lt;BR&gt;Color	Black
-&lt;BR&gt;Contact Material	Copper Alloy
-&lt;BR&gt;Contact Plating	Gold
-&lt;BR&gt;Contact Type	Stamped
-&lt;BR&gt;Shielding Material	Stainless Steel
-&lt;BR&gt;Shielding Plating	Matte Tin
-&lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o72645v209%20Family_WR-COM_Micro-USB-Type-B_Vertical_614105150721.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o72645v209%20Family_WR-COM_Micro-USB-Type-B_Vertical_614105150721.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/COM_MICRO_TYPE_B_VERTICAL/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/COM_MICRO_TYPE_B_VERTICAL&lt;/a&gt;&lt;p&gt;
-
-Updated by Ella 2024-05-21&lt;br&gt;
-2024 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="USB2.0_MICRO_TYPEB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="614105150721">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
-<connect gate="G$1" pin="VBUS" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16513903/7"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="APPLICATION" value="Micro USB 2.0"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/614105150721?ae"/>
-<attribute name="GERDER" value="Receptacle"/>
-<attribute name="INTERFACE-TYPE" value="Type B"/>
-<attribute name="IR" value="1.8A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PACKAGING" value="Tape and Reel"/>
-<attribute name="PART-NUMBER" value="614105150721"/>
-<attribute name="PINS" value=" 5 "/>
-<attribute name="TYPE" value="Vertical"/>
-<attribute name="VALUE" value="614105150721"/>
-<attribute name="WORKING-VOLTAGE" value="30V(AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rp2xxx_stamp">
 <packages>
 <package name="RP2XXX_STAMP_TH">
@@ -2818,130 +2544,6 @@ Updated by Yingchun,Shan 2019-10-28
 </deviceset>
 </devicesets>
 </library>
-<library name="LED_Platine_SMD" urn="urn:adsk.wipprod:fs.file:vf.E8Pjy16ZR4GfqyLcOMz1rQ">
-<packages>
-<package name="LED_PLATINE" library_version="2">
-<circle x="-1.84" y="-0.5" radius="0.1" width="0.2" layer="21"/>
-<smd name="5" x="-6" y="0.11" dx="3" dy="3" layer="1" stop="no" cream="no"/>
-<polygon width="0.1524" layer="39">
-<vertex x="-9.6738" y="-2.3288"/>
-<vertex x="-2.3262" y="-2.3288"/>
-<vertex x="-2.3262" y="2.5488"/>
-<vertex x="-9.6738" y="2.5488"/>
-</polygon>
-<polygon width="0.1524" layer="1">
-<vertex x="-9.034059375" y="-1.4838"/>
-<vertex x="-2.965940625" y="-1.4838"/>
-<vertex x="-2.782803125" y="-1.078928125"/>
-<vertex x="-2.647215625" y="-0.613"/>
-<vertex x="-2.578740625" y="-0.132609375"/>
-<vertex x="-2.578740625" y="0.352609375"/>
-<vertex x="-2.647215625" y="0.833"/>
-<vertex x="-2.782803125" y="1.298928125"/>
-<vertex x="-2.965940625" y="1.7038"/>
-<vertex x="-9.034059375" y="1.7038"/>
-<vertex x="-9.217196875" y="1.298928125"/>
-<vertex x="-9.352784375" y="0.833"/>
-<vertex x="-9.421259375" y="0.352609375"/>
-<vertex x="-9.421259375" y="-0.132609375"/>
-<vertex x="-9.352784375" y="-0.613"/>
-<vertex x="-9.217196875" y="-1.078928125"/>
-</polygon>
-<wire x1="-8" y1="0.61" x2="-8" y2="-0.39" width="0.01" layer="51"/>
-<wire x1="-4" y1="0.61" x2="-4" y2="-0.39" width="0.01" layer="51"/>
-<wire x1="-8.75" y1="2.275" x2="-3.25" y2="2.275" width="0.1" layer="51"/>
-<wire x1="-8.75" y1="2.275" x2="-8.75" y2="-2.055" width="0.1" layer="51" curve="76.424788"/>
-<wire x1="-3.25" y1="-2.055" x2="-8.75" y2="-2.055" width="0.1" layer="51"/>
-<wire x1="-3.25" y1="-2.055" x2="-3.25" y2="2.275" width="0.1" layer="51" curve="76.424788"/>
-<wire x1="-9" y1="2.09" x2="-8.8" y2="2.375" width="0.2" layer="21" curve="-7.48553"/>
-<wire x1="-9" y1="-1.87" x2="-8.8" y2="-2.155" width="0.2" layer="21" curve="7.991585"/>
-<wire x1="-8.8" y1="2.375" x2="-3.205" y2="2.375" width="0.2" layer="21"/>
-<wire x1="-8.8" y1="-2.155" x2="-3.205" y2="-2.155" width="0.2" layer="21"/>
-<wire x1="-3" y1="2.09" x2="-3.2" y2="2.375" width="0.2" layer="21" curve="7.991585"/>
-<wire x1="-3" y1="-1.87" x2="-3.2" y2="-2.155" width="0.2" layer="21" curve="-7.48553"/>
-<text x="-6" y="3.01" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-9.4" y="-4.09" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="7.81" y="-1.645" dx="1" dy="1.91" layer="1" rot="R180"/>
-<smd name="2" x="2.73" y="-1.645" dx="1" dy="1.91" layer="1" rot="R180"/>
-<smd name="3" x="0.19" y="1.645" dx="1" dy="1.91" layer="1" rot="R180"/>
-<smd name="4" x="5.27" y="1.645" dx="1" dy="1.91" layer="1" rot="R180"/>
-<wire x1="-1.33" y1="1.25" x2="9.33" y2="1.25" width="0.1" layer="51"/>
-<wire x1="9.33" y1="-1.25" x2="-1.33" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-1.33" y1="-1.25" x2="-1.33" y2="1.25" width="0.1" layer="51"/>
-<wire x1="9.33" y1="-1.25" x2="9.33" y2="1.25" width="0.1" layer="51"/>
-<wire x1="8.65" y1="-1.35" x2="9.43" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="9.43" y1="-1.35" x2="9.43" y2="1.35" width="0.2" layer="21"/>
-<wire x1="9.43" y1="1.35" x2="6.1" y2="1.35" width="0.2" layer="21"/>
-<wire x1="7" y1="-1.35" x2="3.55" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="1" y1="1.35" x2="4.45" y2="1.35" width="0.2" layer="21"/>
-<wire x1="1.9" y1="-1.35" x2="-1.43" y2="-1.35" width="0.2" layer="21"/>
-<wire x1="-1.43" y1="-1.35" x2="-1.43" y2="1.35" width="0.2" layer="21"/>
-<wire x1="-1.43" y1="1.35" x2="-0.65" y2="1.35" width="0.2" layer="21"/>
-<polygon width="0.1524" layer="39">
-<vertex x="-1.6038" y="-2.7738"/>
-<vertex x="9.6038" y="-2.7738"/>
-<vertex x="9.6038" y="2.7738"/>
-<vertex x="-1.6038" y="2.7738"/>
-</polygon>
-<circle x="-0.86" y="1.7" radius="0.1" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LED_PLATINE" library_version="2">
-<pin name="1" x="0" y="0" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="2.54" y="0" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="4" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R90"/>
-<wire x1="-1.27" y1="5.08" x2="8.89" y2="5.08" width="0.254" layer="94"/>
-<wire x1="8.89" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="5.08" width="0.254" layer="94"/>
-<wire x1="8.89" y1="5.08" x2="8.89" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="3.375" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="3.375" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="3.375" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="3.375" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<circle x="0" y="3.81" radius="0.4445" width="0.254" layer="94"/>
-<circle x="2.54" y="3.81" radius="0.4445" width="0.254" layer="94"/>
-<circle x="5.08" y="3.81" radius="0.4445" width="0.254" layer="94"/>
-<circle x="7.62" y="3.81" radius="0.4445" width="0.254" layer="94"/>
-<text x="-2.54" y="3.302" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-2.54" y="0" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
-<circle x="15.24" y="2.54" radius="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="0" x2="25.4" y2="0" width="0.1524" layer="94"/>
-<wire x1="25.4" y1="0" x2="27.94" y2="0" width="0.1524" layer="94"/>
-<wire x1="27.94" y1="0" x2="25.4" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="25.4" y1="-2.54" x2="22.86" y2="0" width="0.1524" layer="94"/>
-<pin name="5" x="25.4" y="0" visible="off" length="point" direction="sup"/>
-<wire x1="25.4" y1="2.54" x2="25.4" y2="0" width="0.1524" layer="94"/>
-<wire x1="25.4" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LED_PLATINE" library_version="2">
-<gates>
-<gate name="G$1" symbol="LED_PLATINE" x="-4" y="-4"/>
-</gates>
-<devices>
-<device name="" package="LED_PLATINE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
@@ -3570,6 +3172,422 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 </deviceset>
 </devicesets>
 </library>
+<library name="LED_Platine_SMD">
+<packages>
+<package name="LED_PLATINE">
+<circle x="-1.84" y="-0.5" radius="0.1" width="0.2" layer="21"/>
+<text x="-6.762" y="4.28" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="2.792" y="4.292" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="7.81" y="-1.645" dx="1" dy="1.91" layer="1" rot="R180"/>
+<smd name="2" x="2.73" y="-1.645" dx="1" dy="1.91" layer="1" rot="R180"/>
+<smd name="3" x="0.19" y="1.645" dx="1" dy="1.91" layer="1" rot="R180"/>
+<smd name="4" x="5.27" y="1.645" dx="1" dy="1.91" layer="1" rot="R180"/>
+<wire x1="-1.33" y1="1.25" x2="9.33" y2="1.25" width="0.1" layer="51"/>
+<wire x1="9.33" y1="-1.25" x2="-1.33" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.33" y1="-1.25" x2="-1.33" y2="1.25" width="0.1" layer="51"/>
+<wire x1="9.33" y1="-1.25" x2="9.33" y2="1.25" width="0.1" layer="51"/>
+<wire x1="8.65" y1="-1.35" x2="9.43" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="9.43" y1="-1.35" x2="9.43" y2="1.35" width="0.2" layer="21"/>
+<wire x1="9.43" y1="1.35" x2="6.1" y2="1.35" width="0.2" layer="21"/>
+<wire x1="7" y1="-1.35" x2="3.55" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="1" y1="1.35" x2="4.45" y2="1.35" width="0.2" layer="21"/>
+<wire x1="1.9" y1="-1.35" x2="-1.43" y2="-1.35" width="0.2" layer="21"/>
+<wire x1="-1.43" y1="-1.35" x2="-1.43" y2="1.35" width="0.2" layer="21"/>
+<wire x1="-1.43" y1="1.35" x2="-0.65" y2="1.35" width="0.2" layer="21"/>
+<polygon width="0.1524" layer="39">
+<vertex x="-1.6038" y="-2.7738"/>
+<vertex x="9.6038" y="-2.7738"/>
+<vertex x="9.6038" y="2.7738"/>
+<vertex x="-1.6038" y="2.7738"/>
+</polygon>
+<circle x="-0.86" y="1.7" radius="0.1" width="0.2" layer="21"/>
+<smd name="5" x="-5.9944" y="0.1524" dx="3" dy="3" layer="1" stop="no" cream="no"/>
+<hole x="-8.7644" y="0.1524" drill="0.97"/>
+<hole x="-3.2244" y="0.1524" drill="0.97"/>
+<polygon width="0.1" layer="39">
+<vertex x="-9.6944" y="-2.3126"/>
+<vertex x="-2.2944" y="-2.3126"/>
+<vertex x="-2.2944" y="2.6174"/>
+<vertex x="-9.6944" y="2.6174"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="-9.074396875" y="-1.5126"/>
+<vertex x="-2.914403125" y="-1.5126"/>
+<vertex x="-2.710246875" y="-1.061265625"/>
+<vertex x="-2.571846875" y="-0.585678125"/>
+<vertex x="-2.501940625" y="-0.09528125"/>
+<vertex x="-2.501940625" y="0.40008125"/>
+<vertex x="-2.571846875" y="0.890478125"/>
+<vertex x="-2.710246875" y="1.366065625"/>
+<vertex x="-2.914403125" y="1.8174"/>
+<vertex x="-9.074396875" y="1.8174"/>
+<vertex x="-9.278553125" y="1.366065625"/>
+<vertex x="-9.416953125" y="0.890478125"/>
+<vertex x="-9.486859375" y="0.40008125"/>
+<vertex x="-9.486859375" y="-0.09528125"/>
+<vertex x="-9.416953125" y="-0.585678125"/>
+<vertex x="-9.278553125" y="-1.061265625"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-7.997328125" y="1.1524"/>
+<vertex x="-7.9944" y="1.149471875"/>
+<vertex x="-7.9944" y="0.6524"/>
+<vertex x="-3.9944" y="0.6524"/>
+<vertex x="-3.9944" y="1.149471875"/>
+<vertex x="-3.991471875" y="1.1524"/>
+<vertex x="-2.6394" y="1.1524"/>
+<vertex x="-2.759759375" y="1.49196875"/>
+<vertex x="-2.914403125" y="1.8174"/>
+<vertex x="-9.074396875" y="1.8174"/>
+<vertex x="-9.229040625" y="1.49196875"/>
+<vertex x="-9.3494" y="1.1524"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-7.9944" y="-0.3476"/>
+<vertex x="-7.9944" y="-0.844671875"/>
+<vertex x="-7.997328125" y="-0.8476"/>
+<vertex x="-9.3494" y="-0.8476"/>
+<vertex x="-9.229040625" y="-1.18716875"/>
+<vertex x="-9.074396875" y="-1.5126"/>
+<vertex x="-2.914403125" y="-1.5126"/>
+<vertex x="-2.759759375" y="-1.18716875"/>
+<vertex x="-2.6394" y="-0.8476"/>
+<vertex x="-3.991471875" y="-0.8476"/>
+<vertex x="-3.9944" y="-0.844671875"/>
+<vertex x="-3.9944" y="-0.3476"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-9.1344" y="-1.6126"/>
+<vertex x="-2.8544" y="-1.6126"/>
+<vertex x="-2.65475625" y="-1.1972625"/>
+<vertex x="-2.50976875" y="-0.75985"/>
+<vertex x="-2.42181875" y="-0.307484375"/>
+<vertex x="-2.392340625" y="0.1524"/>
+<vertex x="-2.42181875" y="0.612284375"/>
+<vertex x="-2.50976875" y="1.06465"/>
+<vertex x="-2.65475625" y="1.5020625"/>
+<vertex x="-2.8544" y="1.9174"/>
+<vertex x="-9.1344" y="1.9174"/>
+<vertex x="-9.33404375" y="1.5020625"/>
+<vertex x="-9.47903125" y="1.06465"/>
+<vertex x="-9.56698125" y="0.612284375"/>
+<vertex x="-9.596459375" y="0.1524"/>
+<vertex x="-9.56698125" y="-0.307484375"/>
+<vertex x="-9.47903125" y="-0.75985"/>
+<vertex x="-9.33404375" y="-1.1972625"/>
+</polygon>
+<wire x1="-7.9944" y1="0.6524" x2="-7.9944" y2="-0.3476" width="0.01" layer="51"/>
+<wire x1="-3.9944" y1="0.6524" x2="-3.9944" y2="-0.3476" width="0.01" layer="51"/>
+<wire x1="-8.7444" y1="2.3174" x2="-3.2444" y2="2.3174" width="0.1" layer="51"/>
+<wire x1="-8.7444" y1="2.3174" x2="-8.7444" y2="-2.0126" width="0.1" layer="51" curve="76.424788"/>
+<wire x1="-3.2444" y1="-2.0126" x2="-8.7444" y2="-2.0126" width="0.1" layer="51"/>
+<wire x1="-3.2444" y1="-2.0126" x2="-3.2444" y2="2.3174" width="0.1" layer="51" curve="76.424788"/>
+<wire x1="-8.9944" y1="2.1324" x2="-8.7944" y2="2.4174" width="0.2" layer="21" curve="-7.48553"/>
+<wire x1="-8.9944" y1="-1.8276" x2="-8.7944" y2="-2.1126" width="0.2" layer="21" curve="7.991585"/>
+<wire x1="-8.7944" y1="2.4174" x2="-3.1994" y2="2.4174" width="0.2" layer="21"/>
+<wire x1="-8.7944" y1="-2.1126" x2="-3.1994" y2="-2.1126" width="0.2" layer="21"/>
+<wire x1="-2.9944" y1="2.1324" x2="-3.1944" y2="2.4174" width="0.2" layer="21" curve="7.991585"/>
+<wire x1="-2.9944" y1="-1.8276" x2="-3.1944" y2="-2.1126" width="0.2" layer="21" curve="-7.48553"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LED_PLATINE">
+<pin name="1" x="0" y="0" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="0" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="-1.27" y1="5.08" x2="8.89" y2="5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="5.08" x2="8.89" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="3.375" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.375" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.375" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="3.375" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<circle x="0" y="3.81" radius="0.4445" width="0.254" layer="94"/>
+<circle x="2.54" y="3.81" radius="0.4445" width="0.254" layer="94"/>
+<circle x="5.08" y="3.81" radius="0.4445" width="0.254" layer="94"/>
+<circle x="7.62" y="3.81" radius="0.4445" width="0.254" layer="94"/>
+<text x="-2.54" y="3.302" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-2.54" y="0" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
+<circle x="15.24" y="2.54" radius="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="25.4" y2="0" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="0" x2="27.94" y2="0" width="0.1524" layer="94"/>
+<wire x1="27.94" y1="0" x2="25.4" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="-2.54" x2="22.86" y2="0" width="0.1524" layer="94"/>
+<pin name="5" x="25.4" y="0" visible="off" length="point" direction="sup"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="0" width="0.1524" layer="94"/>
+<wire x1="25.4" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LED_PLATINE">
+<gates>
+<gate name="G$1" symbol="LED_PLATINE" x="-4" y="-4"/>
+</gates>
+<devices>
+<device name="" package="LED_PLATINE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Eagle_WR-USB (rev25c)">
+<description>&lt;BR&gt;Wurth Elektronik - Electromechanical Components - Connectors - Input/Output connectors - WR-USB&lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2025c, 2025-09-11&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="614105150621" urn="urn:adsk.eagle:footprint:16513836/5" locally_modified="yes">
+<description>&lt;b&gt;WR-COM&lt;/B&gt;&lt;BR&gt; Micro USB 2.0 Type AB Vertical 5 Contacts</description>
+<wire x1="-3.7" y1="-1.175" x2="-3.7" y2="1.175" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-1.175" x2="3.7" y2="-1.175" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="1.175" x2="3.7" y2="1.175" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-1.175" x2="3.7" y2="1.175" width="0.1" layer="51"/>
+<wire x1="-3.8" y1="1.14" x2="-3.8" y2="1.275" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="1.275" x2="3.8" y2="1.275" width="0.2" layer="21"/>
+<wire x1="3.8" y1="1.275" x2="3.8" y2="1.14" width="0.2" layer="21"/>
+<wire x1="-3.23" y1="-1.275" x2="-1.33" y2="-1.275" width="0.2" layer="21"/>
+<wire x1="1.33" y1="-1.275" x2="3.23" y2="-1.275" width="0.2" layer="21"/>
+<wire x1="-3.85" y1="-0.2" x2="-4.35" y2="-0.7" width="0.1" layer="48"/>
+<wire x1="-4.35" y1="-0.7" x2="-4.85" y2="-0.7" width="0.1" layer="48"/>
+<wire x1="-4.7" y1="-0.55" x2="-4.85" y2="-0.7" width="0.1" layer="48"/>
+<wire x1="-4.85" y1="-0.7" x2="-4.7" y2="-0.85" width="0.1" layer="48"/>
+<wire x1="3.85" y1="-0.2" x2="4.35" y2="-0.7" width="0.1" layer="48"/>
+<wire x1="4.35" y1="-0.7" x2="4.85" y2="-0.7" width="0.1" layer="48"/>
+<wire x1="4.7" y1="-0.55" x2="4.85" y2="-0.7" width="0.1" layer="48"/>
+<wire x1="4.85" y1="-0.7" x2="4.7" y2="-0.85" width="0.1" layer="48"/>
+<pad name="1" x="-1.3" y="0.125" drill="0.4"/>
+<pad name="2" x="-0.65" y="-0.875" drill="0.4"/>
+<pad name="3" x="0" y="0.125" drill="0.4"/>
+<pad name="4" x="0.65" y="-0.875" drill="0.4"/>
+<pad name="5" x="1.3" y="0.125" drill="0.4"/>
+<pad name="S1" x="-3.575" y="-0.095" drill="0.35" diameter="1.016" shape="long" rot="R90"/>
+<pad name="S2" x="3.575" y="-0.095" drill="0.35" diameter="1.016" shape="long" rot="R90"/>
+<text x="0" y="1.7" size="1.27" layer="25" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="1.27" layer="27" ratio="13" rot="SR0" align="bottom-center">&gt;VALUE</text>
+<text x="-5" y="-0.95" size="0.254" layer="48" align="bottom-right">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<text x="5" y="-0.95" size="0.254" layer="48">Milling Layer
+the hole size should 
+follow the Milling Layer</text>
+<text x="-3.575" y="-0.095" size="0.1" layer="48" rot="R90" align="center">PCB Cutout Area</text>
+<text x="3.575" y="-0.095" size="0.1" layer="48" rot="R90" align="center">PCB Cutout Area</text>
+<circle x="-2.2" y="0.105" radius="0.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="4" y="1.475"/>
+<vertex x="4" y="1.045"/>
+<vertex x="4.275" y="1.045"/>
+<vertex x="4.275" y="-1.33"/>
+<vertex x="3.9" y="-1.33"/>
+<vertex x="3.9" y="-1.475"/>
+<vertex x="-3.9" y="-1.475"/>
+<vertex x="-3.9" y="-1.235"/>
+<vertex x="-4.275" y="-1.235"/>
+<vertex x="-4.275" y="0.95"/>
+<vertex x="-4" y="0.95"/>
+<vertex x="-4" y="1.475"/>
+</polygon>
+<polygon width="0.3048" layer="46">
+<vertex x="3.75" y="-0.595" curve="-180"/>
+<vertex x="3.4" y="-0.595"/>
+<vertex x="3.4" y="0.405" curve="-180"/>
+<vertex x="3.75" y="0.405"/>
+</polygon>
+<polygon width="0.3048" layer="46">
+<vertex x="-3.4" y="-0.595" curve="-180"/>
+<vertex x="-3.75" y="-0.595"/>
+<vertex x="-3.75" y="0.405" curve="-180"/>
+<vertex x="-3.4" y="0.405"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="614105150621" urn="urn:adsk.eagle:package:16513904/6" type="model">
+<description>&lt;b&gt;WR-COM&lt;/B&gt;&lt;BR&gt; Micro USB 2.0 Type AB Vertical 5 Contacts</description>
+<packageinstances>
+<packageinstance name="614105150621"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="USB2.0_MICRO_TYPEB">
+<description>Micro USB 2.0 Type B</description>
+<pin name="GND" x="-10.16" y="-5.08" length="middle" direction="pas"/>
+<pin name="ID" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="D+" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="D-" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="VBUS" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="SHIELD" x="-10.16" y="-7.62" visible="pad" length="middle" direction="pas"/>
+<wire x1="-5.08" y1="-6.985" x2="-5.08" y2="6.985" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="6.985" x2="4.445" y2="6.985" width="0.254" layer="94"/>
+<wire x1="4.445" y1="-6.985" x2="-5.08" y2="-6.985" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94" style="shortdash"/>
+<wire x1="4.445" y1="6.985" x2="4.445" y2="-6.985" width="0.254" layer="94"/>
+<text x="0" y="8.382" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="6.51" y="-0.83" size="1.016" layer="94" rot="R90">shield</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="614105150621" prefix="J">
+<description>&lt;B&gt;WR-COM Micro USB 2.0 Type AB Vertical 5 Contacts 
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;b&gt;Kind Properties&lt;/b&gt;
+&lt;BR&gt;Durability:10 000 Mating cycles
+&lt;BR&gt;Quality Class:10 000 Mating cycles
+&lt;BR&gt;Connector Type:Micro USB
+&lt;BR&gt;Gender:Receptacle
+&lt;BR&gt;Type:Vertical
+&lt;BR&gt;&lt;BR&gt;
+&lt;b&gt;General Information&lt;/b&gt;
+&lt;BR&gt;Operating Temperature:-40up to +105 °C
+&lt;BR&gt;Compliance:RoHS
+&lt;BR&gt;&lt;BR&gt;
+&lt;b&gt;Electrical Properties&lt;/b&gt;
+&lt;BR&gt;IR 1:1.8A
+&lt;BR&gt;Working Voltage:30V (AC)
+&lt;BR&gt;Withstanding Voltage:100V (AC)
+&lt;BR&gt;Contact Resistance:30 mΩ&lt;BR&gt;&lt;BR&gt;
+&lt;b&gt;Material Properties
+&lt;/b&gt;&lt;BR&gt;Insulator Material:LCP
+&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
+&lt;BR&gt;Color:Black
+&lt;BR&gt;Contact Material:Copper Alloy
+&lt;BR&gt;Contact Plating: Gold
+&lt;BR&gt;Contact Type:Stamped
+&lt;BR&gt;Shielding Material:Stainless Steel
+&lt;BR&gt;Shielding Plating:Matte Tin
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o33043v209%20Family_WR-COM_Micro-USB_Type-AB_614105150621.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o33043v209%20Family_WR-COM_Micro-USB_Type-AB_614105150621.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/COM_MICRO_TYPE_AB_VERTICAL/"&gt;https://www.we-online.com/catalog/en/COM_MICRO_TYPE_AB_VERTICAL/&lt;/a&gt;&lt;p&gt;
+
+Updated by Yingchun, Shan 2020-01-16&lt;br&gt;
+2020 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="USB2.0_MICRO_TYPEB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="614105150621">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16513904/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="APPLICATION" value="Micro USB 2.0"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/614105150621?ae"/>
+<attribute name="GERDER" value="Receptacle"/>
+<attribute name="INTERFACE-TYPE" value="Type AB"/>
+<attribute name="IR" value="1.8A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tape and Reel"/>
+<attribute name="PART-NUMBER" value="614105150621"/>
+<attribute name="PINS" value="5pcs"/>
+<attribute name="TYPE" value="Vertical"/>
+<attribute name="VALUE" value="614105150621"/>
+<attribute name="WORKING-VOLTAGE" value="30VAC"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3580,8 +3598,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 </class>
 </classes>
 <parts>
-<part name="J2" library="Eagle_WR-USB (rev24c)" deviceset="614105150721" device="" package3d_urn="urn:adsk.eagle:package:16513903/7" value="614105150721"/>
-<part name="U$1" library="rp2xxx_stamp" deviceset="RP2350_STAMP" device="THT"/>
+<part name="U$1" library="rp2xxx_stamp" deviceset="RP2350_STAMP" device="SMD" value="RP2350_STAMPSMD"/>
 <part name="J3" library="Eagle_WR-MM (rev20b)" deviceset="690367290476" device="" package3d_urn="urn:adsk.eagle:package:15178558/2" value="690367290476"/>
 <part name="J4" library="Eagle_WR-MM (rev20b)" deviceset="690367291276" device="" package3d_urn="urn:adsk.eagle:package:15178554/2" value="690367291276"/>
 <part name="D5" library="diode" deviceset="SCHOTTKY_" device="DO-219" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="MBR0520LT1G" value="MBR0520LT1G"/>
@@ -3604,9 +3621,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <part name="C23" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="2,2µ"/>
 <part name="C25" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="22µ"/>
 <part name="C26" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="2,2µ"/>
-<part name="W11" library="LED_Platine_SMD" library_urn="urn:adsk.wipprod:fs.file:vf.E8Pjy16ZR4GfqyLcOMz1rQ" deviceset="LED_PLATINE" device="" value=""/>
-<part name="W12" library="LED_Platine_SMD" library_urn="urn:adsk.wipprod:fs.file:vf.E8Pjy16ZR4GfqyLcOMz1rQ" deviceset="LED_PLATINE" device="" value=""/>
-<part name="W13" library="LED_Platine_SMD" library_urn="urn:adsk.wipprod:fs.file:vf.E8Pjy16ZR4GfqyLcOMz1rQ" deviceset="LED_PLATINE" device="" value=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3622,9 +3636,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <part name="C28" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="2,2µ"/>
 <part name="C29" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="22µ"/>
 <part name="C30" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="2,2µ"/>
-<part name="W21" library="LED_Platine_SMD" library_urn="urn:adsk.wipprod:fs.file:vf.E8Pjy16ZR4GfqyLcOMz1rQ" deviceset="LED_PLATINE" device="" value=""/>
-<part name="W22" library="LED_Platine_SMD" library_urn="urn:adsk.wipprod:fs.file:vf.E8Pjy16ZR4GfqyLcOMz1rQ" deviceset="LED_PLATINE" device="" value=""/>
-<part name="W23" library="LED_Platine_SMD" library_urn="urn:adsk.wipprod:fs.file:vf.E8Pjy16ZR4GfqyLcOMz1rQ" deviceset="LED_PLATINE" device="" value=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3640,7 +3651,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <part name="C36" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="2,2µ"/>
 <part name="C37" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="22µ"/>
 <part name="C38" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="2,2µ"/>
-<part name="GRUEN" library="LED_Platine_SMD" library_urn="urn:adsk.wipprod:fs.file:vf.E8Pjy16ZR4GfqyLcOMz1rQ" deviceset="LED_PLATINE" device="" value=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3654,7 +3664,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <part name="C40" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="2,2µ"/>
 <part name="C41" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="22µ"/>
 <part name="C42" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/5" technology="_" value="2,2µ"/>
-<part name="ROT" library="LED_Platine_SMD" library_urn="urn:adsk.wipprod:fs.file:vf.E8Pjy16ZR4GfqyLcOMz1rQ" deviceset="LED_PLATINE" device="" value=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3698,6 +3707,23 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D3" library="Eagle_WE-TVS (rev22a)" deviceset="WE-TVS-HS_SOT563_82400152" device="" package3d_urn="urn:adsk.eagle:package:12152376/4" value="5Vdc"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="ROT" library="LED_Platine_SMD" deviceset="LED_PLATINE" device="" value="ROT"/>
+<part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GRUEN" library="LED_Platine_SMD" deviceset="LED_PLATINE" device="" value="GRUEN"/>
+<part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="W11" library="LED_Platine_SMD" deviceset="LED_PLATINE" device="" value="W11"/>
+<part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="W12" library="LED_Platine_SMD" deviceset="LED_PLATINE" device="" value="W12"/>
+<part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="W13" library="LED_Platine_SMD" deviceset="LED_PLATINE" device="" value="W13"/>
+<part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="W21" library="LED_Platine_SMD" deviceset="LED_PLATINE" device="" value="W21"/>
+<part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="W22" library="LED_Platine_SMD" deviceset="LED_PLATINE" device="" value="W22"/>
+<part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="W23" library="LED_Platine_SMD" deviceset="LED_PLATINE" device="" value="W23"/>
+<part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J1" library="Eagle_WR-USB (rev25c)" deviceset="614105150621" device="" package3d_urn="urn:adsk.eagle:package:16513904/6" value="614105150621"/>
 </parts>
 <sheets>
 <sheet>
@@ -3705,10 +3731,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <text x="-11.43" y="16.51" size="2.54" layer="97">USV - Lichterführung</text>
 </plain>
 <instances>
-<instance part="J2" gate="G$1" x="-171.45" y="144.78" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-171.45" y="153.162" size="1.27" layer="95" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="-171.45" y="134.62" size="1.27" layer="96" rot="MR0" align="bottom-center"/>
-</instance>
 <instance part="U$1" gate="G$1" x="-115.57" y="144.78" smashed="yes">
 <attribute name="VALUE" x="-125.54" y="88.9" size="1.27" layer="96"/>
 </instance>
@@ -3779,24 +3801,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <attribute name="NAME" x="-27.94" y="130.81" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-20.32" y="130.81" size="1.27" layer="96"/>
 </instance>
-<instance part="W11" gate="G$1" x="-34.29" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="-40.132" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="-41.91" y="146.05" size="1.778" layer="96" rot="R90" align="bottom-right"/>
-<attribute name="NAME" x="-40.894" y="137.16" size="1.27" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="-41.402" y="145.288" size="1.27" layer="95" rot="R270"/>
-</instance>
-<instance part="W12" gate="G$1" x="-20.32" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="-26.162" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="-27.94" y="147.32" size="1.778" layer="96" rot="R90" align="bottom-right"/>
-<attribute name="NAME" x="-26.924" y="137.16" size="1.27" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="-31.242" y="144.018" size="1.27" layer="95" rot="R270"/>
-</instance>
-<instance part="W13" gate="G$1" x="-7.62" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="-13.462" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="-13.97" y="147.32" size="1.778" layer="96" rot="R90" align="bottom-right"/>
-<attribute name="NAME" x="-14.224" y="137.16" size="1.27" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="-17.272" y="145.288" size="1.27" layer="95" rot="R270"/>
-</instance>
 <instance part="P+7" gate="1" x="-39.37" y="119.38" smashed="yes">
 <attribute name="VALUE" x="-38.1" y="123.19" size="1.27" layer="96" rot="R180"/>
 </instance>
@@ -3831,24 +3835,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <instance part="C30" gate="G$1" x="25.4" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.59" y="130.81" size="1.27" layer="95"/>
 <attribute name="VALUE" x="29.21" y="130.81" size="1.27" layer="96"/>
-</instance>
-<instance part="W21" gate="G$1" x="15.24" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.398" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="7.62" y="146.05" size="1.778" layer="96" rot="R90" align="bottom-right"/>
-<attribute name="NAME" x="9.144" y="137.16" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="8.128" y="145.288" size="1.27" layer="95" rot="R270"/>
-</instance>
-<instance part="W22" gate="G$1" x="29.21" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.368" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="21.59" y="147.32" size="1.778" layer="96" rot="R90" align="bottom-right"/>
-<attribute name="NAME" x="22.606" y="137.16" size="1.27" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="18.288" y="144.018" size="1.27" layer="95" rot="R270"/>
-</instance>
-<instance part="W23" gate="G$1" x="41.91" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.068" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="35.56" y="147.32" size="1.778" layer="96" rot="R90" align="bottom-right"/>
-<attribute name="NAME" x="35.306" y="137.16" size="1.27" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="32.258" y="145.288" size="1.27" layer="95" rot="R270"/>
 </instance>
 <instance part="P+8" gate="1" x="10.16" y="119.38" smashed="yes">
 <attribute name="VALUE" x="12.7" y="123.19" size="1.27" layer="96" rot="R180"/>
@@ -3885,12 +3871,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <attribute name="NAME" x="24.13" y="62.23" size="1.27" layer="95"/>
 <attribute name="VALUE" x="31.75" y="62.23" size="1.27" layer="96"/>
 </instance>
-<instance part="GRUEN" gate="G$1" x="31.75" y="67.31" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.05" y="75.438" size="1.27" layer="95" rot="R180" align="bottom-right"/>
-<attribute name="VALUE" x="24.13" y="77.47" size="1.778" layer="96" rot="R90" align="bottom-right"/>
-<attribute name="NAME" x="23.876" y="68.58" size="1.27" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="20.828" y="74.168" size="1.27" layer="95" rot="R270"/>
-</instance>
 <instance part="P+11" gate="1" x="12.7" y="50.8" smashed="yes">
 <attribute name="VALUE" x="10.16" y="45.72" size="1.27" layer="96" rot="R90"/>
 </instance>
@@ -3923,12 +3903,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <instance part="C42" gate="G$1" x="-22.86" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="-26.67" y="62.23" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-19.05" y="62.23" size="1.27" layer="96"/>
-</instance>
-<instance part="ROT" gate="G$1" x="-19.05" y="67.31" smashed="yes" rot="R90">
-<attribute name="NAME" x="-29.21" y="75.438" size="1.27" layer="95" rot="R180" align="bottom-right"/>
-<attribute name="VALUE" x="-26.67" y="77.47" size="1.778" layer="96" rot="R90" align="bottom-right"/>
-<attribute name="NAME" x="-26.924" y="71.12" size="1.27" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="-29.972" y="74.168" size="1.27" layer="95" rot="R270"/>
 </instance>
 <instance part="P+12" gate="1" x="-38.1" y="50.8" smashed="yes">
 <attribute name="VALUE" x="-40.64" y="45.72" size="1.27" layer="96" rot="R90"/>
@@ -4066,6 +4040,50 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <attribute name="NAME" x="-147.32" y="142.24" size="1.27" layer="95" rot="MR180" align="bottom-center"/>
 </instance>
 <instance part="GND30" gate="1" x="-134.62" y="149.86" smashed="yes" rot="R90"/>
+<instance part="ROT" gate="G$1" x="-19.05" y="67.31" smashed="yes" rot="R90">
+<attribute name="NAME" x="-24.892" y="69.85" size="1.27" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="-29.21" y="74.93" size="1.27" layer="96" rot="R180" align="bottom-right"/>
+</instance>
+<instance part="GND31" gate="1" x="-24.13" y="92.71" smashed="yes" rot="R270"/>
+<instance part="GRUEN" gate="G$1" x="31.75" y="67.31" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.908" y="72.39" size="1.27" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="19.05" y="74.93" size="1.27" layer="96" rot="R180" align="bottom-right"/>
+</instance>
+<instance part="GND32" gate="1" x="26.67" y="92.71" smashed="yes" rot="R270"/>
+<instance part="W11" gate="G$1" x="-34.29" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="-40.132" y="139.7" size="1.27" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="-41.91" y="142.24" size="1.27" layer="96" rot="R270" align="bottom-right"/>
+</instance>
+<instance part="GND33" gate="1" x="-39.37" y="162.56" smashed="yes" rot="R270"/>
+<instance part="W12" gate="G$1" x="-20.32" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="-26.162" y="139.7" size="1.27" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="-27.94" y="142.24" size="1.27" layer="96" rot="R270" align="bottom-right"/>
+</instance>
+<instance part="GND34" gate="1" x="-25.4" y="162.56" smashed="yes" rot="R270"/>
+<instance part="W13" gate="G$1" x="-7.62" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="-13.462" y="139.7" size="1.27" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="-15.24" y="142.24" size="1.27" layer="96" rot="R270" align="bottom-right"/>
+</instance>
+<instance part="GND35" gate="1" x="-12.7" y="162.56" smashed="yes" rot="R270"/>
+<instance part="W21" gate="G$1" x="15.24" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.398" y="139.7" size="1.27" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="7.62" y="142.24" size="1.27" layer="96" rot="R270" align="bottom-right"/>
+</instance>
+<instance part="GND36" gate="1" x="10.16" y="162.56" smashed="yes" rot="R270"/>
+<instance part="W22" gate="G$1" x="29.21" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.368" y="139.7" size="1.27" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="21.59" y="142.24" size="1.27" layer="96" rot="R270" align="bottom-right"/>
+</instance>
+<instance part="GND37" gate="1" x="24.13" y="162.56" smashed="yes" rot="R270"/>
+<instance part="W23" gate="G$1" x="41.91" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.068" y="139.7" size="1.27" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="34.29" y="142.24" size="1.27" layer="96" rot="R270" align="bottom-right"/>
+</instance>
+<instance part="GND38" gate="1" x="36.83" y="162.56" smashed="yes" rot="R270"/>
+<instance part="J1" gate="G$1" x="-171.45" y="144.78" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-171.45" y="153.162" size="1.778" layer="95" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="-171.45" y="134.62" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4261,12 +4279,13 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 </net>
 <net name="VBUS" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="VBUS"/>
-<pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="-161.29" y1="161.29" x2="-161.29" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="VDD"/>
 <wire x1="-161.29" y1="149.86" x2="-157.48" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="-161.29" y1="149.86" x2="-161.29" y2="156.21" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="149.86" x2="-161.29" y2="149.86" width="0.1524" layer="91"/>
 <junction x="-161.29" y="149.86"/>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4278,8 +4297,11 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
+<wire x1="-161.29" y1="137.16" x2="-161.29" y2="139.7" width="0.1524" layer="91"/>
+<junction x="-161.29" y="139.7"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -4316,16 +4338,16 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="W11" gate="G$1" pin="3"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="W11" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="W12" gate="G$1" pin="3"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="W12" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="W13" gate="G$1" pin="3"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+<pinref part="W13" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="PGND"/>
@@ -4350,16 +4372,16 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="W21" gate="G$1" pin="3"/>
 <pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="W21" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="W22" gate="G$1" pin="3"/>
 <pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="W22" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="W23" gate="G$1" pin="3"/>
 <pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="W23" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="U10" gate="G$1" pin="PGND"/>
@@ -4384,8 +4406,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="GND44" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GRUEN" gate="G$1" pin="3"/>
 <pinref part="GND40" gate="1" pin="GND"/>
+<pinref part="GRUEN" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="PGND"/>
@@ -4410,8 +4432,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="GND50" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="ROT" gate="G$1" pin="3"/>
 <pinref part="GND46" gate="1" pin="GND"/>
+<pinref part="ROT" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="V-"/>
@@ -4455,6 +4477,54 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="D3" gate="G$1" pin="GND"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="ROT" gate="G$1" pin="5"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="-19.05" y1="92.71" x2="-21.59" y2="92.71" width="0.1524" layer="91"/>
+<junction x="-21.59" y="92.71"/>
+</segment>
+<segment>
+<pinref part="GRUEN" gate="G$1" pin="5"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+<wire x1="31.75" y1="92.71" x2="29.21" y2="92.71" width="0.1524" layer="91"/>
+<junction x="29.21" y="92.71"/>
+</segment>
+<segment>
+<pinref part="W11" gate="G$1" pin="5"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+<wire x1="-34.29" y1="162.56" x2="-36.83" y2="162.56" width="0.1524" layer="91"/>
+<junction x="-36.83" y="162.56"/>
+</segment>
+<segment>
+<pinref part="GND34" gate="1" pin="GND"/>
+<junction x="-22.86" y="162.56"/>
+<pinref part="W12" gate="G$1" pin="5"/>
+<wire x1="-20.32" y1="162.56" x2="-22.86" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="W13" gate="G$1" pin="5"/>
+<pinref part="GND35" gate="1" pin="GND"/>
+<wire x1="-7.62" y1="162.56" x2="-10.16" y2="162.56" width="0.1524" layer="91"/>
+<junction x="-10.16" y="162.56"/>
+</segment>
+<segment>
+<pinref part="W21" gate="G$1" pin="5"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+<wire x1="15.24" y1="162.56" x2="12.7" y2="162.56" width="0.1524" layer="91"/>
+<junction x="12.7" y="162.56"/>
+</segment>
+<segment>
+<pinref part="W22" gate="G$1" pin="5"/>
+<pinref part="GND37" gate="1" pin="GND"/>
+<wire x1="29.21" y1="162.56" x2="26.67" y2="162.56" width="0.1524" layer="91"/>
+<junction x="26.67" y="162.56"/>
+</segment>
+<segment>
+<pinref part="W23" gate="G$1" pin="5"/>
+<pinref part="GND38" gate="1" pin="GND"/>
+<wire x1="41.91" y1="162.56" x2="39.37" y2="162.56" width="0.1524" layer="91"/>
+<junction x="39.37" y="162.56"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -4491,11 +4561,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="A"/>
-<pinref part="P+5" gate="1" pin="+5V"/>
-<wire x1="-161.29" y1="156.21" x2="-161.29" y2="163.83" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="P" pin="V+"/>
 <wire x1="-87.63" y1="72.39" x2="-96.52" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="72.39" x2="-96.52" y2="71.12" width="0.1524" layer="91"/>
@@ -4517,6 +4582,11 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="P+1" gate="1" pin="+5V"/>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="-80.01" y1="167.64" x2="-72.39" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="1" pin="+5V"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<wire x1="-161.29" y1="163.83" x2="-161.29" y2="161.29" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -4553,8 +4623,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <junction x="-39.37" y="116.84"/>
 <pinref part="P+7" gate="1" pin="+12V"/>
 <wire x1="-33.02" y1="130.81" x2="-33.02" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="W11" gate="G$1" pin="1"/>
 <wire x1="-33.02" y1="137.16" x2="-34.29" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="W11" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="16.51" y1="124.46" x2="16.51" y2="129.54" width="0.1524" layer="91"/>
@@ -4581,8 +4651,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <junction x="10.16" y="116.84"/>
 <pinref part="P+8" gate="1" pin="+12V"/>
 <wire x1="16.51" y1="130.81" x2="16.51" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="W21" gate="G$1" pin="1"/>
 <wire x1="16.51" y1="137.16" x2="15.24" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="W21" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="19.05" y1="55.88" x2="19.05" y2="60.96" width="0.1524" layer="91"/>
@@ -4609,9 +4679,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="P+11" gate="1" pin="+12V"/>
 <wire x1="19.05" y1="60.96" x2="19.05" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="64.77" x2="31.75" y2="64.77" width="0.1524" layer="91"/>
-<pinref part="GRUEN" gate="G$1" pin="1"/>
 <wire x1="31.75" y1="64.77" x2="31.75" y2="67.31" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="64.77" x2="19.05" y2="64.77" width="0.1524" layer="91"/>
+<pinref part="GRUEN" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="-31.75" y1="55.88" x2="-31.75" y2="60.96" width="0.1524" layer="91"/>
@@ -4638,9 +4708,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <junction x="-38.1" y="48.26"/>
 <pinref part="P+12" gate="1" pin="+12V"/>
 <wire x1="-27.94" y1="64.77" x2="-19.05" y2="64.77" width="0.1524" layer="91"/>
-<pinref part="ROT" gate="G$1" pin="1"/>
 <wire x1="-19.05" y1="64.77" x2="-19.05" y2="67.31" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="64.77" x2="-31.75" y2="64.77" width="0.1524" layer="91"/>
+<pinref part="ROT" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -4661,29 +4731,21 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="C22" gate="G$1" pin="2"/>
 <pinref part="C26" gate="G$1" pin="2"/>
 <junction x="-12.7" y="124.46"/>
-<pinref part="W13" gate="G$1" pin="2"/>
 <wire x1="-7.62" y1="139.7" x2="-5.08" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="139.7" x2="-5.08" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="132.08" x2="-12.7" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="132.08" x2="-12.7" y2="129.54" width="0.1524" layer="91"/>
 <junction x="-12.7" y="129.54"/>
+<pinref part="W13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PD_W1" class="0">
 <segment>
 <wire x1="-45.72" y1="147.32" x2="-45.72" y2="144.78" width="0.1524" layer="91"/>
 <label x="-45.72" y="144.78" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="W11" gate="G$1" pin="4"/>
 <wire x1="-34.29" y1="144.78" x2="-34.29" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="W12" gate="G$1" pin="4"/>
-<wire x1="-34.29" y1="147.32" x2="-20.32" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="147.32" x2="-20.32" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="W13" gate="G$1" pin="4"/>
-<wire x1="-20.32" y1="147.32" x2="-7.62" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="147.32" x2="-7.62" y2="144.78" width="0.1524" layer="91"/>
-<junction x="-20.32" y="147.32"/>
 <wire x1="-34.29" y1="147.32" x2="-45.72" y2="147.32" width="0.1524" layer="91"/>
-<junction x="-34.29" y="147.32"/>
+<pinref part="W11" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -4700,23 +4762,23 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 </net>
 <net name="W11_W12" class="0">
 <segment>
-<pinref part="W11" gate="G$1" pin="2"/>
 <wire x1="-34.29" y1="139.7" x2="-29.21" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="-29.21" y1="139.7" x2="-29.21" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-29.21" y1="134.62" x2="-20.32" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="W12" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="134.62" x2="-20.32" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="W11" gate="G$1" pin="2"/>
+<pinref part="W12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="W12_W13" class="0">
 <segment>
-<pinref part="W12" gate="G$1" pin="2"/>
 <wire x1="-20.32" y1="139.7" x2="-16.51" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="-16.51" y1="139.7" x2="-16.51" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-16.51" y1="134.62" x2="-7.62" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="134.62" x2="-7.62" y2="135.89" width="0.1524" layer="91"/>
-<pinref part="W13" gate="G$1" pin="1"/>
 <wire x1="-7.62" y1="135.89" x2="-7.62" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="W12" gate="G$1" pin="2"/>
+<pinref part="W13" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -4737,33 +4799,33 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="C27" gate="G$1" pin="2"/>
 <pinref part="C30" gate="G$1" pin="2"/>
 <junction x="36.83" y="124.46"/>
-<pinref part="W23" gate="G$1" pin="2"/>
 <wire x1="41.91" y1="139.7" x2="44.45" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="44.45" y1="139.7" x2="44.45" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="44.45" y1="132.08" x2="36.83" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="36.83" y1="132.08" x2="36.83" y2="129.54" width="0.1524" layer="91"/>
 <junction x="36.83" y="129.54"/>
+<pinref part="W23" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="W21_W22" class="0">
 <segment>
-<pinref part="W21" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="139.7" x2="20.32" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="139.7" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="134.62" x2="29.21" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="W22" gate="G$1" pin="1"/>
 <wire x1="29.21" y1="134.62" x2="29.21" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="W21" gate="G$1" pin="2"/>
+<pinref part="W22" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="W22_W23" class="0">
 <segment>
-<pinref part="W22" gate="G$1" pin="2"/>
 <wire x1="29.21" y1="139.7" x2="33.02" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="139.7" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="134.62" x2="41.91" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="41.91" y1="134.62" x2="41.91" y2="135.89" width="0.1524" layer="91"/>
-<pinref part="W23" gate="G$1" pin="1"/>
 <wire x1="41.91" y1="135.89" x2="41.91" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="W22" gate="G$1" pin="2"/>
+<pinref part="W23" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -4786,11 +4848,11 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <junction x="39.37" y="55.88"/>
 <wire x1="39.37" y1="62.23" x2="39.37" y2="60.96" width="0.1524" layer="91"/>
 <junction x="39.37" y="60.96"/>
-<pinref part="GRUEN" gate="G$1" pin="2"/>
 <wire x1="31.75" y1="69.85" x2="35.56" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="69.85" x2="35.56" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="64.77" x2="39.37" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="39.37" y1="64.77" x2="39.37" y2="62.23" width="0.1524" layer="91"/>
+<pinref part="GRUEN" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -4813,21 +4875,21 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <junction x="-11.43" y="55.88"/>
 <wire x1="-11.43" y1="62.23" x2="-11.43" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-11.43" y="60.96"/>
-<pinref part="ROT" gate="G$1" pin="2"/>
 <wire x1="-19.05" y1="69.85" x2="-15.24" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="69.85" x2="-15.24" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="64.77" x2="-11.43" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="-11.43" y1="64.77" x2="-11.43" y2="62.23" width="0.1524" layer="91"/>
+<pinref part="ROT" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PD_R" class="0">
 <segment>
 <wire x1="-38.1" y1="77.47" x2="-38.1" y2="73.66" width="0.1524" layer="91"/>
 <label x="-38.1" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="ROT" gate="G$1" pin="4"/>
 <wire x1="-33.02" y1="77.47" x2="-19.05" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="-19.05" y1="77.47" x2="-19.05" y2="74.93" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="77.47" x2="-38.1" y2="77.47" width="0.1524" layer="91"/>
+<pinref part="ROT" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -4846,10 +4908,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <segment>
 <wire x1="12.7" y1="77.47" x2="12.7" y2="73.66" width="0.1524" layer="91"/>
 <label x="12.7" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="GRUEN" gate="G$1" pin="4"/>
 <wire x1="17.78" y1="77.47" x2="31.75" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="31.75" y1="77.47" x2="31.75" y2="74.93" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="77.47" x2="12.7" y2="77.47" width="0.1524" layer="91"/>
+<pinref part="GRUEN" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -4868,17 +4930,11 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <segment>
 <wire x1="3.81" y1="147.32" x2="3.81" y2="144.78" width="0.1524" layer="91"/>
 <label x="3.81" y="144.78" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="W21" gate="G$1" pin="4"/>
-<wire x1="15.24" y1="144.78" x2="15.24" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="W22" gate="G$1" pin="4"/>
 <wire x1="15.24" y1="147.32" x2="29.21" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="29.21" y1="147.32" x2="29.21" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="W23" gate="G$1" pin="4"/>
 <wire x1="29.21" y1="147.32" x2="41.91" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="41.91" y1="147.32" x2="41.91" y2="144.78" width="0.1524" layer="91"/>
-<junction x="29.21" y="147.32"/>
 <wire x1="15.24" y1="147.32" x2="3.81" y2="147.32" width="0.1524" layer="91"/>
-<junction x="15.24" y="147.32"/>
+<pinref part="W23" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -4917,11 +4973,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="-74.93" y1="167.64" x2="-73.66" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="D_P" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="USB_D+"/>
@@ -4941,24 +4992,34 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 </net>
 <net name="D+@1" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="D+"/>
 <pinref part="D3" gate="G$1" pin="I/O3"/>
 <wire x1="-161.29" y1="144.78" x2="-157.48" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="D+"/>
+<wire x1="-161.29" y1="144.78" x2="-157.48" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="144.78" x2="-161.29" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-@1" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="D-"/>
 <wire x1="-161.29" y1="147.32" x2="-160.02" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-160.02" y1="147.32" x2="-160.02" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="I/O4"/>
 <wire x1="-160.02" y1="154.94" x2="-157.48" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="D-"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
+<approved hash="102,1,-19.05,92.71,5,GND,,,,"/>
+<approved hash="102,1,31.75,92.71,5,GND,,,,"/>
+<approved hash="102,1,-34.29,162.56,5,GND,,,,"/>
+<approved hash="102,1,-20.32,162.56,5,GND,,,,"/>
+<approved hash="102,1,-7.62,162.56,5,GND,,,,"/>
+<approved hash="102,1,15.24,162.56,5,GND,,,,"/>
+<approved hash="102,1,29.21,162.56,5,GND,,,,"/>
+<approved hash="102,1,41.91,162.56,5,GND,,,,"/>
 <approved hash="104,1,-130.81,167.64,U$1,5V,+5V,,,"/>
 <approved hash="104,1,-130.81,165.1,U$1,3.3V,+3V3,,,"/>
 <approved hash="204,1,-130.81,162.56,U$1,VBAT,,,,"/>
@@ -4972,6 +5033,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <approved hash="104,1,16.51,119.38,U8,LED+,+12V,,,"/>
 <approved hash="104,1,16.51,116.84,U8,LED1+,+12V,,,"/>
 <approved hash="104,1,29.21,106.68,U8,AGND,GND,,,"/>
+<approved hash="202,1,36.83,116.84,U8,IFIX,,,,"/>
 <approved hash="104,1,24.13,106.68,U8,PGND,GND,,,"/>
 <approved hash="104,1,19.05,50.8,U10,LED+,+12V,,,"/>
 <approved hash="104,1,19.05,48.26,U10,LED1+,+12V,,,"/>
@@ -4987,7 +5049,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS-HS"&gt;http
 <approved hash="104,1,-87.63,57.15,IC1P,V-,GND,,,"/>
 <approved hash="104,1,-87.63,33.02,IC2P,V+,+5V,,,"/>
 <approved hash="104,1,-87.63,17.78,IC2P,V-,GND,,,"/>
-<approved hash="117,1,-34.29,162.56,5,,,,,"/>
 </errors>
 </schematic>
 </drawing>
