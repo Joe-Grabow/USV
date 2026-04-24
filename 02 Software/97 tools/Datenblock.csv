@@ -5,29 +5,31 @@ Adresse;Byte;Bezeichner;Funktion;Wert
 9;1;SB4;SatFix (deprecate);
 A;2;SB5;Geschwindigkeit (Fusion);
 C;2;SB6;Kurswinkel (Fusion);
-E;3;SB7;Timestamp;
-12;2;SB8;Radar Entfernung;
-14;1;SB9;Radar Geschwindigkeit;
-20;4;SB20;Längengrad;
-24;4;SB21;Breitengrad;
-28;1;SB22;SatFix;
-29;2;SB23;GPS Geschwindigkeit;
-2B;2;SB24;Kurswinkel Kompass;
-2D;2;SB25;IMU Beschleunigung x;
-2F;2;SB26;IMU Beschleunigung y;
-31;2;SB27;IMU Beschleunigung z;
-33;2;SB28;IMU Omega x;
-35;2;SB29;IMU Omega y;
-37;2;SB30;IMU Omega z;
-39;2;SB31;Rollwinkel um x;
-3B;2;SB32;Nickwinkel um y;
-3D;2;SB33;Gierwinkel um z;
+E;4;SB7;Timestamp UNIX-Time RTC;
+12;3;SB8;Radar Entfernung;
+14;3;SB9;Radar Geschwindigkeit;
+20;3;SB20;Längengrad;
+24;3;SB21;Breitengrad;
+28;3;SB22;SatFix;
+29;3;SB23;GPS Geschwindigkeit;
+2B;4;SB24;Timestamp UNIX-Time GPS;
+2F;2;SB25;Kurswinkel Kompass;
+31;2;SB26;IMU Beschleunigung x;
+33;2;SB27;IMU Beschleunigung y;
+35;2;SB28;IMU Beschleunigung z;
+37;2;SB29;IMU Omega x;
+39;2;SB30;IMU Omega y;
+3B;2;SB31;IMU Omega z;
+3D;2;SB32;Rollwinkel um x;
+3B;2;SB33;Nickwinkel um y;
+3F;2;SB34;Gierwinkel um z;
 100;8;AF1;Führung Punkt A, Länge, Breite;
 108;8;AF2;Führung Punkt B, Länge, Breite;
 110;2;AF3;Führung Geschwindigkeit;
 112;2;AF4;Führung Epsilon;
 120;2;AS1;Schub;
 122;2;AS2;Ruder;
+124;1;AS3;Anker;
 130;2;EM1;Spannung Akku 1;24,20
 132;2;EM2;Strom Akku 1;55,40
 134;2;EM3;Ladung Akku 1;55,00

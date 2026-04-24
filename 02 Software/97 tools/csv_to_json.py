@@ -26,15 +26,15 @@ import json
 def read_csv_to_dict(file_path):
     data_dict = {}
 
-    with open(file_path, 'r', newline='') as csvfile:
+    with open(file_path, 'r', encoding="latin-1", newline='') as csvfile:
         csv_reader = csv.reader(csvfile, delimiter=';')
         
         # Überspringe die erste Zeile
         next(csv_reader, None)
         
-        # Annahme: Die Datei hat mindestens 5 Spalten
+        # Annahme: Die Datei hat mindestens 4 Spalten
         for row in csv_reader:
-            if len(row) >= 5:
+            if len(row) >= 4:
                 key = row[2]  # dritte Spalte als Key
                 decimal_value = int(row[0], 16)  # erste Spalte (Adresse dezimal)
                 hex_value = hex(decimal_value)  # erste Spalte (Adresse hexadezimal)
