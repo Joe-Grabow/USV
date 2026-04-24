@@ -1,0 +1,49 @@
+{
+"adc_sensors": {
+     Value_avg_cnt:20,
+     time_ms:50,
+     ADC_R:{"pin":26},
+     ADC_W1:{"pin":27},
+     ADC_W2:{"pin":28},
+     ADC_G:{"pin":29},
+     }    
+
+"PWM_Sensor":{
+    "feq":5000,
+    "green":21,
+    "red":24,
+    "white1":22,
+    "white2":23   
+    } 
+    
+"Uart":{
+    "Slave_id":
+    "BAUDRATE":250000,
+    "tx_pin":8,
+    "rx_pin":9,
+    "write":{"MSB":0x81,"LSB":0x50},
+    "read":{
+        "Longitude":{"MSB":0x04,"LSB":0x01,"len":4},
+        "Latitude":{"MSB":0x40,"LSB":0x05,"len":4},
+        "time":{"MSB":0x40,"LSB":0x0E,"len":3},
+        "date":{"MSB":,"LSB":,"len":},
+        "anker":{"MSB":0x41,"LSB":0x24,"len":1}
+    }
+    }  
+     
+"Trigger_monitor":{
+    white:10,
+    red:10,
+    green:10,
+    dark:10
+    light:10
+    }   
+    
+"u_statfunc":{
+    cyle_W_N : 32768,
+    cyle_W_P : 49152,
+    cyle_R_N : 32768,
+    cyle_G_N : 32768
+    }
+     
+ }
