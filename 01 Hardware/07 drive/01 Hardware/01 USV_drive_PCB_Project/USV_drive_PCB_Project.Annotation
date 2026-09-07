@@ -1,0 +1,16 @@
+[DesignatorManager]
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+DocumentName0=ATtiny_Connections.SchDoc
+UniqueIDPath0=
+SheetNumber0=2
+DocumentName1=Connectors.SchDoc
+UniqueIDPath1=
+SheetNumber1=3
+DocumentName2=Overview.SchDoc
+UniqueIDPath2=
+SheetNumber2=1
+
+
