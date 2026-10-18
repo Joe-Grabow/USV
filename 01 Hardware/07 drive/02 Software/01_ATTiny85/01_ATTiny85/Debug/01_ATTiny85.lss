@@ -1,0 +1,1673 @@
+
+01_ATTiny85.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000096  00000000  00000000  000000d4  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  00800060  0000085b  2**0
+                  ALLOC, LOAD, DATA
+  2 .comment      0000002f  00000000  00000000  0000085b  2**0
+                  CONTENTS, READONLY
+  3 .stack.descriptors.hdr 00000038  00000000  00000000  0000088a  2**0
+                  CONTENTS, READONLY
+  4 .debug_aranges 000000f8  00000000  00000000  000008c8  2**3
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00001700  00000000  00000000  000009c0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 000007d0  00000000  00000000  000020c0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000aeb  00000000  00000000  00002890  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000184  00000000  00000000  0000337c  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    0000020d  00000000  00000000  00003500  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    000003dc  00000000  00000000  0000370d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 000000d8  00000000  00000000  00003ae9  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .text         00000002  0000077c  0000077c  00000850  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00003bc4  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 14 .text.OSCCALInit 00000060  0000042a  0000042a  000004fe  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 15 .bss.setOSCCAL 00000001  008000a6  008000a6  0000085b  2**0
+                  ALLOC
+ 16 .bss.cpuID    00000002  008000a4  008000a4  0000085b  2**0
+                  ALLOC
+ 17 .text.Timer_and_PWM_Init 0000002a  000006ba  000006ba  0000078e  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 18 .text.check_OK_on_Start 00000052  00000592  00000592  00000666  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 19 .text.check_for_valid_value 00000024  000006e4  000006e4  000007b8  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 20 .text.Timer_shot_100_ms 0000005a  0000048a  0000048a  0000055e  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 21 .text.check_and_set_UART_state 00000058  000004e4  000004e4  000005b8  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 22 .text.check_motor_and_set_status 00000050  000005e4  000005e4  000006b8  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 23 .text.main    0000006a  000003c0  000003c0  00000494  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 24 .bss.ovf_cnt.1992 00000004  008000a0  008000a0  0000085b  2**0
+                  ALLOC
+ 25 .bss.cnt_led_toggle 00000001  008000a7  008000a7  0000085b  2**0
+                  ALLOC
+ 26 .bss.cnt_failed_new_data 00000001  008000a8  008000a8  0000085b  2**0
+                  ALLOC
+ 27 .bss.valid_data_received 00000001  008000a9  008000a9  0000085b  2**0
+                  ALLOC
+ 28 .bss.uart_state 00000001  008000aa  008000aa  0000085b  2**0
+                  ALLOC
+ 29 .bss.cnt_motor_ok_after_fail 00000001  008000ab  008000ab  0000085b  2**0
+                  ALLOC
+ 30 .bss.cnt_motor_failure 00000001  008000ac  008000ac  0000085b  2**0
+                  ALLOC
+ 31 .data.motor_state 00000001  008000ad  00000786  0000085a  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 32 .text.Bit_Reverse 00000020  00000708  00000708  000007dc  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 33 .text.USI_UART_Flush_Buffers 0000001a  00000728  00000728  000007fc  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 34 .text.USI_UART_Initialise_Receiver 00000042  00000678  00000678  0000074c  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 35 .text.USI_UART_Data_In_Receive_Buffer 0000000e  00000754  00000754  00000828  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 36 .text.USI_UART_Receive_Byte 00000056  0000053c  0000053c  00000610  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 37 .text.USI_UART_Transmit_Byte 00000092  0000032e  0000032e  00000402  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 38 .text.__vector_2 000000b8  00000276  00000276  0000034a  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 39 .text.__vector_10 00000044  00000634  00000634  00000708  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 40 .text.__vector_14 000001e0  00000096  00000096  0000016a  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 41 .bss.UART_RxBuf_Count 00000001  008000ae  008000ae  0000085b  2**0
+                  ALLOC
+ 42 .bss.UART_RxTail 00000001  008000af  008000af  0000085b  2**0
+                  ALLOC
+ 43 .bss.UART_RxHead 00000001  008000b0  008000b0  0000085b  2**0
+                  ALLOC
+ 44 .bss.UART_RXBuf 00000020  00800060  00800060  0000085b  2**0
+                  ALLOC
+ 45 .bss.UART_TxBuf_Count 00000001  008000b1  008000b1  0000085b  2**0
+                  ALLOC
+ 46 .bss.UART_TxTail 00000001  008000b2  008000b2  0000085b  2**0
+                  ALLOC
+ 47 .bss.UART_TxHead 00000001  008000b3  008000b3  0000085b  2**0
+                  ALLOC
+ 48 .bss.UART_TXBuf 00000020  00800080  00800080  0000085b  2**0
+                  ALLOC
+ 49 .bss.USI_UART_state 00000001  008000b4  008000b4  0000085b  2**0
+                  ALLOC
+ 50 .text.libgcc  0000000c  00000770  00000770  00000844  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 51 .text.__dummy_fini 00000002  0000077e  0000077e  00000852  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 52 .text.__dummy_funcs_on_exit 00000002  00000780  00000780  00000854  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 53 .text.__dummy_simulator_exit 00000002  00000782  00000782  00000856  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 54 .text.exit    0000000e  00000762  00000762  00000836  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 55 .text._Exit   00000002  00000784  00000784  00000858  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 56 .text.avrlibc 00000012  00000742  00000742  00000816  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	18 c0       	rjmp	.+48     	; 0x32 <__ctors_end>
+   2:	bc c3       	rjmp	.+1912   	; 0x77c <__bad_interrupt>
+   4:	38 c1       	rjmp	.+624    	; 0x276 <__vector_2>
+   6:	ba c3       	rjmp	.+1908   	; 0x77c <__bad_interrupt>
+   8:	b9 c3       	rjmp	.+1906   	; 0x77c <__bad_interrupt>
+   a:	b8 c3       	rjmp	.+1904   	; 0x77c <__bad_interrupt>
+   c:	b7 c3       	rjmp	.+1902   	; 0x77c <__bad_interrupt>
+   e:	b6 c3       	rjmp	.+1900   	; 0x77c <__bad_interrupt>
+  10:	b5 c3       	rjmp	.+1898   	; 0x77c <__bad_interrupt>
+  12:	b4 c3       	rjmp	.+1896   	; 0x77c <__bad_interrupt>
+  14:	0f c3       	rjmp	.+1566   	; 0x634 <__vector_10>
+  16:	b2 c3       	rjmp	.+1892   	; 0x77c <__bad_interrupt>
+  18:	b1 c3       	rjmp	.+1890   	; 0x77c <__bad_interrupt>
+  1a:	b0 c3       	rjmp	.+1888   	; 0x77c <__bad_interrupt>
+  1c:	3c c0       	rjmp	.+120    	; 0x96 <_etext>
+
+0000001e <.dinit>:
+  1e:	00 60       	ori	r16, 0x00	; 0
+  20:	00 ad       	ldd	r16, Z+56	; 0x38
+  22:	80 00       	.word	0x0080	; ????
+  24:	ad 00       	.word	0x00ad	; ????
+  26:	ae 00       	.word	0x00ae	; ????
+  28:	07 86       	std	Z+15, r0	; 0x0f
+  2a:	00 ae       	std	Z+56, r0	; 0x38
+  2c:	00 b5       	in	r16, 0x20	; 32
+  2e:	80 00       	.word	0x0080	; ????
+
+00000030 <__ctors_start>:
+  30:	15 02       	muls	r17, r21
+
+00000032 <__ctors_end>:
+  32:	11 24       	eor	r1, r1
+  34:	1f be       	out	0x3f, r1	; 63
+  36:	cf e5       	ldi	r28, 0x5F	; 95
+  38:	d2 e0       	ldi	r29, 0x02	; 2
+  3a:	de bf       	out	0x3e, r29	; 62
+  3c:	cd bf       	out	0x3d, r28	; 61
+
+0000003e <__do_copy_data>:
+  3e:	ee e1       	ldi	r30, 0x1E	; 30
+  40:	f0 e0       	ldi	r31, 0x00	; 0
+  42:	40 e0       	ldi	r20, 0x00	; 0
+  44:	17 c0       	rjmp	.+46     	; 0x74 <__do_clear_bss+0x8>
+  46:	b5 91       	lpm	r27, Z+
+  48:	a5 91       	lpm	r26, Z+
+  4a:	35 91       	lpm	r19, Z+
+  4c:	25 91       	lpm	r18, Z+
+  4e:	05 91       	lpm	r16, Z+
+  50:	07 fd       	sbrc	r16, 7
+  52:	0c c0       	rjmp	.+24     	; 0x6c <__do_clear_bss>
+  54:	95 91       	lpm	r25, Z+
+  56:	85 91       	lpm	r24, Z+
+  58:	ef 01       	movw	r28, r30
+  5a:	f9 2f       	mov	r31, r25
+  5c:	e8 2f       	mov	r30, r24
+  5e:	05 90       	lpm	r0, Z+
+  60:	0d 92       	st	X+, r0
+  62:	a2 17       	cp	r26, r18
+  64:	b3 07       	cpc	r27, r19
+  66:	d9 f7       	brne	.-10     	; 0x5e <__SREG__+0x1f>
+  68:	fe 01       	movw	r30, r28
+  6a:	04 c0       	rjmp	.+8      	; 0x74 <__do_clear_bss+0x8>
+
+0000006c <__do_clear_bss>:
+  6c:	1d 92       	st	X+, r1
+  6e:	a2 17       	cp	r26, r18
+  70:	b3 07       	cpc	r27, r19
+  72:	e1 f7       	brne	.-8      	; 0x6c <__do_clear_bss>
+  74:	ef 32       	cpi	r30, 0x2F	; 47
+  76:	f4 07       	cpc	r31, r20
+  78:	31 f7       	brne	.-52     	; 0x46 <__SREG__+0x7>
+
+0000007a <__do_global_ctors>:
+  7a:	10 e0       	ldi	r17, 0x00	; 0
+  7c:	c9 e1       	ldi	r28, 0x19	; 25
+  7e:	d0 e0       	ldi	r29, 0x00	; 0
+  80:	03 c0       	rjmp	.+6      	; 0x88 <__do_global_ctors+0xe>
+  82:	21 97       	sbiw	r28, 0x01	; 1
+  84:	fe 01       	movw	r30, r28
+  86:	74 d3       	rcall	.+1768   	; 0x770 <__tablejump2__>
+  88:	c8 31       	cpi	r28, 0x18	; 24
+  8a:	d1 07       	cpc	r29, r17
+  8c:	d1 f7       	brne	.-12     	; 0x82 <__do_global_ctors+0x8>
+  8e:	98 d1       	rcall	.+816    	; 0x3c0 <main>
+  90:	68 c3       	rjmp	.+1744   	; 0x762 <exit>
+
+00000092 <_exit>:
+  92:	f8 94       	cli
+
+00000094 <__stop_program>:
+  94:	ff cf       	rjmp	.-2      	; 0x94 <__stop_program>
+
+Disassembly of section .text:
+
+0000077c <__bad_interrupt>:
+ 77c:	41 cc       	rjmp	.-1918   	; 0x0 <__TEXT_REGION_ORIGIN__>
+
+Disassembly of section .text.OSCCALInit:
+
+0000042a <OSCCALInit>:
+
+void OSCCALInit(void) __attribute__((constructor));
+void flashNewOSCCALtoEEPROM(uint8_t tOSCCAL);
+
+void OSCCALInit(void)
+{
+ 42a:	0f 93       	push	r16
+ 42c:	1f 93       	push	r17
+ 42e:	cf 93       	push	r28
+	uint8_t tmp;
+	uint8_t CHSr;
+	
+	uint8_t CHSc = 0;
+	
+	tmp = eeprom_read_byte((const uint8_t*)0x00);
+ 430:	60 e0       	ldi	r22, 0x00	; 0
+ 432:	70 e0       	ldi	r23, 0x00	; 0
+ 434:	80 e0       	ldi	r24, 0x00	; 0
+ 436:	85 d1       	rcall	.+778    	; 0x742 <eeprom_read_byte>
+ 438:	c8 2f       	mov	r28, r24
+	CHSc += tmp;
+	cpuID |= (uint16_t)tmp;
+ 43a:	00 91 a4 00 	lds	r16, 0x00A4	; 0x8000a4 <cpuID>
+ 43e:	10 91 a5 00 	lds	r17, 0x00A5	; 0x8000a5 <cpuID+0x1>
+ 442:	08 2b       	or	r16, r24
+ 444:	10 93 a5 00 	sts	0x00A5, r17	; 0x8000a5 <cpuID+0x1>
+ 448:	00 93 a4 00 	sts	0x00A4, r16	; 0x8000a4 <cpuID>
+	tmp = eeprom_read_byte((const uint8_t*)0x01);
+ 44c:	61 e0       	ldi	r22, 0x01	; 1
+ 44e:	70 e0       	ldi	r23, 0x00	; 0
+ 450:	80 e0       	ldi	r24, 0x00	; 0
+ 452:	77 d1       	rcall	.+750    	; 0x742 <eeprom_read_byte>
+	CHSc += tmp;
+ 454:	c8 0f       	add	r28, r24
+	cpuID |=  ((uint16_t)tmp)<<8;
+ 456:	18 2b       	or	r17, r24
+ 458:	10 93 a5 00 	sts	0x00A5, r17	; 0x8000a5 <cpuID+0x1>
+ 45c:	00 93 a4 00 	sts	0x00A4, r16	; 0x8000a4 <cpuID>
+	tOSCCAL = eeprom_read_byte((const uint8_t*)0x02);
+ 460:	62 e0       	ldi	r22, 0x02	; 2
+ 462:	70 e0       	ldi	r23, 0x00	; 0
+ 464:	80 e0       	ldi	r24, 0x00	; 0
+ 466:	6d d1       	rcall	.+730    	; 0x742 <eeprom_read_byte>
+ 468:	18 2f       	mov	r17, r24
+	CHSc += tOSCCAL;
+ 46a:	c8 0f       	add	r28, r24
+	CHSc = (~CHSc) +1;
+	CHSr = eeprom_read_byte((const uint8_t*)0x03);
+ 46c:	63 e0       	ldi	r22, 0x03	; 3
+ 46e:	70 e0       	ldi	r23, 0x00	; 0
+ 470:	80 e0       	ldi	r24, 0x00	; 0
+ 472:	67 d1       	rcall	.+718    	; 0x742 <eeprom_read_byte>
+	if(CHSc==CHSr)
+ 474:	c1 95       	neg	r28
+ 476:	c8 13       	cpse	r28, r24
+ 478:	04 c0       	rjmp	.+8      	; 0x482 <OSCCALInit+0x58>
+	{
+		OSCCAL = tOSCCAL;
+ 47a:	11 bf       	out	0x31, r17	; 49
+		setOSCCAL = true;
+ 47c:	81 e0       	ldi	r24, 0x01	; 1
+ 47e:	80 93 a6 00 	sts	0x00A6, r24	; 0x8000a6 <setOSCCAL>
+	}
+}
+ 482:	cf 91       	pop	r28
+ 484:	1f 91       	pop	r17
+ 486:	0f 91       	pop	r16
+ 488:	08 95       	ret
+
+Disassembly of section .text.Timer_and_PWM_Init:
+
+000006ba <Timer_and_PWM_Init>:
+ * @param void
+ * @return void
+ */
+void Timer_and_PWM_Init(void)
+{	
+	PLLCSR |= (1 << PLLE);								// Enable the PLL.
+ 6ba:	87 b5       	in	r24, 0x27	; 39
+ 6bc:	82 60       	ori	r24, 0x02	; 2
+ 6be:	87 bd       	out	0x27, r24	; 39
+	while(!(PLLCSR & (1 << PLOCK)));					// Wait until PPL is locked in steady state (100 us) is needed before asynchronous mode can be enabled.
+ 6c0:	07 b4       	in	r0, 0x27	; 39
+ 6c2:	00 fe       	sbrs	r0, 0
+ 6c4:	fd cf       	rjmp	.-6      	; 0x6c0 <Timer_and_PWM_Init+0x6>
+	PLLCSR |= (1 << PCKE);								// Enable PLL as Timer/Counter clock source for enabling the asynchronous mode. (f_PLL = 64 MHz).  	
+ 6c6:	87 b5       	in	r24, 0x27	; 39
+ 6c8:	84 60       	ori	r24, 0x04	; 4
+ 6ca:	87 bd       	out	0x27, r24	; 39
+	
+	GTCCR |= (1 << PWM1B)|(1 << COM1B1);				// Enable PWM for OCR1B in non-inverting mode.
+ 6cc:	8c b5       	in	r24, 0x2c	; 44
+ 6ce:	80 66       	ori	r24, 0x60	; 96
+ 6d0:	8c bd       	out	0x2c, r24	; 44
+	
+	OCR1C = 255; 										// Set the maximum count value for the PWM. (255 = maximum resolution of 8.0)
+ 6d2:	8f ef       	ldi	r24, 0xFF	; 255
+ 6d4:	8d bd       	out	0x2d, r24	; 45
+	OCR1B = PWM_STOP; 									// Set the duty cycle at the beginning to 35% (=1,765V).
+ 6d6:	8a e5       	ldi	r24, 0x5A	; 90
+ 6d8:	8b bd       	out	0x2b, r24	; 43
+	
+	DDRB |= (1 << PB4);									// Set PB4 as output for the PWM.
+ 6da:	bc 9a       	sbi	0x17, 4	; 23
+	
+	TCCR1 |= (1 << CS10);								// Start the Timer/Counter1 with prescaler N = 1.
+ 6dc:	80 b7       	in	r24, 0x30	; 48
+ 6de:	81 60       	ori	r24, 0x01	; 1
+ 6e0:	80 bf       	out	0x30, r24	; 48
+ 6e2:	08 95       	ret
+
+Disassembly of section .text.check_OK_on_Start:
+
+00000592 <check_OK_on_Start>:
+ * @param void
+ * @return true or false
+ */
+bool check_OK_on_Start(void)
+{	
+	DDRB &= ~(1 << PB3);								// Error Beep In
+ 592:	bb 98       	cbi	0x17, 3	; 23
+	PORTB |= (1 << PB3);								// Internal Pull-Up
+ 594:	c3 9a       	sbi	0x18, 3	; 24
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 596:	2f e7       	ldi	r18, 0x7F	; 127
+ 598:	3b e2       	ldi	r19, 0x2B	; 43
+ 59a:	88 e1       	ldi	r24, 0x18	; 24
+ 59c:	21 50       	subi	r18, 0x01	; 1
+ 59e:	30 40       	sbci	r19, 0x00	; 0
+ 5a0:	80 40       	sbci	r24, 0x00	; 0
+ 5a2:	e1 f7       	brne	.-8      	; 0x59c <check_OK_on_Start+0xa>
+ 5a4:	00 c0       	rjmp	.+0      	; 0x5a6 <check_OK_on_Start+0x14>
+ 5a6:	00 00       	nop
+	
+	_delay_ms(990);										// Time for middle of first Low-Signal of Motor-OK (=898 + 185/2)
+		
+	for (uint8_t i=1; i<=6; i++)					
+ 5a8:	81 e0       	ldi	r24, 0x01	; 1
+	{	// odd and Pin is not Low or even and Pin is not High
+		if (((i%2 == 1) && (PINB & (1 << PB3))) || ((i%2 == 0) && !(PINB & (1 << PB3))))
+ 5aa:	80 ff       	sbrs	r24, 0
+ 5ac:	03 c0       	rjmp	.+6      	; 0x5b4 <check_OK_on_Start+0x22>
+ 5ae:	b3 9b       	sbis	0x16, 3	; 22
+ 5b0:	03 c0       	rjmp	.+6      	; 0x5b8 <check_OK_on_Start+0x26>
+ 5b2:	12 c0       	rjmp	.+36     	; 0x5d8 <check_OK_on_Start+0x46>
+ 5b4:	b3 9b       	sbis	0x16, 3	; 22
+ 5b6:	12 c0       	rjmp	.+36     	; 0x5dc <check_OK_on_Start+0x4a>
+		{
+			return false;
+		}
+		else if (i != 6)
+ 5b8:	86 30       	cpi	r24, 0x06	; 6
+ 5ba:	91 f0       	breq	.+36     	; 0x5e0 <check_OK_on_Start+0x4e>
+ 5bc:	9f e3       	ldi	r25, 0x3F	; 63
+ 5be:	24 e8       	ldi	r18, 0x84	; 132
+ 5c0:	34 e0       	ldi	r19, 0x04	; 4
+ 5c2:	91 50       	subi	r25, 0x01	; 1
+ 5c4:	20 40       	sbci	r18, 0x00	; 0
+ 5c6:	30 40       	sbci	r19, 0x00	; 0
+ 5c8:	e1 f7       	brne	.-8      	; 0x5c2 <check_OK_on_Start+0x30>
+ 5ca:	00 c0       	rjmp	.+0      	; 0x5cc <check_OK_on_Start+0x3a>
+ 5cc:	00 00       	nop
+	DDRB &= ~(1 << PB3);								// Error Beep In
+	PORTB |= (1 << PB3);								// Internal Pull-Up
+	
+	_delay_ms(990);										// Time for middle of first Low-Signal of Motor-OK (=898 + 185/2)
+		
+	for (uint8_t i=1; i<=6; i++)					
+ 5ce:	8f 5f       	subi	r24, 0xFF	; 255
+ 5d0:	87 30       	cpi	r24, 0x07	; 7
+ 5d2:	59 f7       	brne	.-42     	; 0x5aa <check_OK_on_Start+0x18>
+		{
+			_delay_ms(185);								// One Pulse of OK-Signal
+		}
+	}
+	
+	return true;
+ 5d4:	81 e0       	ldi	r24, 0x01	; 1
+ 5d6:	08 95       	ret
+		
+	for (uint8_t i=1; i<=6; i++)					
+	{	// odd and Pin is not Low or even and Pin is not High
+		if (((i%2 == 1) && (PINB & (1 << PB3))) || ((i%2 == 0) && !(PINB & (1 << PB3))))
+		{
+			return false;
+ 5d8:	80 e0       	ldi	r24, 0x00	; 0
+ 5da:	08 95       	ret
+ 5dc:	80 e0       	ldi	r24, 0x00	; 0
+ 5de:	08 95       	ret
+		{
+			_delay_ms(185);								// One Pulse of OK-Signal
+		}
+	}
+	
+	return true;
+ 5e0:	81 e0       	ldi	r24, 0x01	; 1
+}
+ 5e2:	08 95       	ret
+
+Disassembly of section .text.check_for_valid_value:
+
+000006e4 <check_for_valid_value>:
+ * @param uint8_t value
+ * @return bool: true if valid value, else: false
+ */
+bool check_for_valid_value(uint8_t value)
+{
+	return ((value >= 24 && value <= 68) || (value == PWM_STOP) || (value >= 112 && value <= 235));
+ 6e4:	98 ee       	ldi	r25, 0xE8	; 232
+ 6e6:	98 0f       	add	r25, r24
+ 6e8:	9d 32       	cpi	r25, 0x2D	; 45
+ 6ea:	48 f0       	brcs	.+18     	; 0x6fe <check_for_valid_value+0x1a>
+ 6ec:	8a 35       	cpi	r24, 0x5A	; 90
+ 6ee:	49 f0       	breq	.+18     	; 0x702 <check_for_valid_value+0x1e>
+ 6f0:	80 57       	subi	r24, 0x70	; 112
+ 6f2:	91 e0       	ldi	r25, 0x01	; 1
+ 6f4:	8c 37       	cpi	r24, 0x7C	; 124
+ 6f6:	08 f0       	brcs	.+2      	; 0x6fa <check_for_valid_value+0x16>
+ 6f8:	90 e0       	ldi	r25, 0x00	; 0
+ 6fa:	89 2f       	mov	r24, r25
+ 6fc:	03 c0       	rjmp	.+6      	; 0x704 <check_for_valid_value+0x20>
+ 6fe:	81 e0       	ldi	r24, 0x01	; 1
+ 700:	01 c0       	rjmp	.+2      	; 0x704 <check_for_valid_value+0x20>
+ 702:	81 e0       	ldi	r24, 0x01	; 1
+}
+ 704:	81 70       	andi	r24, 0x01	; 1
+ 706:	08 95       	ret
+
+Disassembly of section .text.Timer_shot_100_ms:
+
+0000048a <Timer_shot_100_ms>:
+ */
+bool Timer_shot_100_ms(void)
+{
+	static uint32_t ovf_cnt = 0;						// Overflow Counter for Timer1
+	
+	if (TIFR & (1 << TOV1))								// Timer1 Overflow Flag is set?
+ 48a:	08 b6       	in	r0, 0x38	; 56
+ 48c:	02 fe       	sbrs	r0, 2
+ 48e:	28 c0       	rjmp	.+80     	; 0x4e0 <Timer_shot_100_ms+0x56>
+	{
+		TIFR |= (1 << TOV1);							// Reset Timer1 Overflow Flag
+ 490:	88 b7       	in	r24, 0x38	; 56
+ 492:	84 60       	ori	r24, 0x04	; 4
+ 494:	88 bf       	out	0x38, r24	; 56
+			
+		ovf_cnt++;										// Count Overflows
+ 496:	80 91 a0 00 	lds	r24, 0x00A0	; 0x8000a0 <ovf_cnt.1992>
+ 49a:	90 91 a1 00 	lds	r25, 0x00A1	; 0x8000a1 <ovf_cnt.1992+0x1>
+ 49e:	a0 91 a2 00 	lds	r26, 0x00A2	; 0x8000a2 <ovf_cnt.1992+0x2>
+ 4a2:	b0 91 a3 00 	lds	r27, 0x00A3	; 0x8000a3 <ovf_cnt.1992+0x3>
+ 4a6:	01 96       	adiw	r24, 0x01	; 1
+ 4a8:	a1 1d       	adc	r26, r1
+ 4aa:	b1 1d       	adc	r27, r1
+			
+		if (ovf_cnt >= (OVF_MATCHES_100MS))				// Check if Timer_Overflows reached the overflows for time
+ 4ac:	8c 35       	cpi	r24, 0x5C	; 92
+ 4ae:	2b e2       	ldi	r18, 0x2B	; 43
+ 4b0:	92 07       	cpc	r25, r18
+ 4b2:	a1 05       	cpc	r26, r1
+ 4b4:	b1 05       	cpc	r27, r1
+ 4b6:	50 f4       	brcc	.+20     	; 0x4cc <Timer_shot_100_ms+0x42>
+	
+	if (TIFR & (1 << TOV1))								// Timer1 Overflow Flag is set?
+	{
+		TIFR |= (1 << TOV1);							// Reset Timer1 Overflow Flag
+			
+		ovf_cnt++;										// Count Overflows
+ 4b8:	80 93 a0 00 	sts	0x00A0, r24	; 0x8000a0 <ovf_cnt.1992>
+ 4bc:	90 93 a1 00 	sts	0x00A1, r25	; 0x8000a1 <ovf_cnt.1992+0x1>
+ 4c0:	a0 93 a2 00 	sts	0x00A2, r26	; 0x8000a2 <ovf_cnt.1992+0x2>
+ 4c4:	b0 93 a3 00 	sts	0x00A3, r27	; 0x8000a3 <ovf_cnt.1992+0x3>
+			ovf_cnt = 0;								// Reset the overflow counter
+			return true;
+		}
+	}
+	
+	return false;
+ 4c8:	80 e0       	ldi	r24, 0x00	; 0
+ 4ca:	08 95       	ret
+			
+		ovf_cnt++;										// Count Overflows
+			
+		if (ovf_cnt >= (OVF_MATCHES_100MS))				// Check if Timer_Overflows reached the overflows for time
+		{
+			ovf_cnt = 0;								// Reset the overflow counter
+ 4cc:	10 92 a0 00 	sts	0x00A0, r1	; 0x8000a0 <ovf_cnt.1992>
+ 4d0:	10 92 a1 00 	sts	0x00A1, r1	; 0x8000a1 <ovf_cnt.1992+0x1>
+ 4d4:	10 92 a2 00 	sts	0x00A2, r1	; 0x8000a2 <ovf_cnt.1992+0x2>
+ 4d8:	10 92 a3 00 	sts	0x00A3, r1	; 0x8000a3 <ovf_cnt.1992+0x3>
+			return true;
+ 4dc:	81 e0       	ldi	r24, 0x01	; 1
+ 4de:	08 95       	ret
+		}
+	}
+	
+	return false;
+ 4e0:	80 e0       	ldi	r24, 0x00	; 0
+}
+ 4e2:	08 95       	ret
+
+Disassembly of section .text.check_and_set_UART_state:
+
+000004e4 <check_and_set_UART_state>:
+* @param void
+* @return void
+*/
+void check_and_set_UART_state(void)
+{
+	switch(uart_state)
+ 4e4:	80 91 aa 00 	lds	r24, 0x00AA	; 0x8000aa <uart_state>
+ 4e8:	81 30       	cpi	r24, 0x01	; 1
+ 4ea:	19 f0       	breq	.+6      	; 0x4f2 <check_and_set_UART_state+0xe>
+ 4ec:	82 30       	cpi	r24, 0x02	; 2
+ 4ee:	c1 f0       	breq	.+48     	; 0x520 <check_and_set_UART_state+0x3c>
+ 4f0:	08 95       	ret
+			break;										// Do nothing
+		}
+					
+		case UART_CONNECTED:							// UART is connected
+		{
+			if (valid_data_received)					// Valid data received
+ 4f2:	80 91 a9 00 	lds	r24, 0x00A9	; 0x8000a9 <valid_data_received>
+ 4f6:	88 23       	and	r24, r24
+ 4f8:	29 f0       	breq	.+10     	; 0x504 <check_and_set_UART_state+0x20>
+			{
+				cnt_failed_new_data = 0;				// Reset the counter
+ 4fa:	10 92 a8 00 	sts	0x00A8, r1	; 0x8000a8 <cnt_failed_new_data>
+				valid_data_received = false;			// Reset valid data state.
+ 4fe:	10 92 a9 00 	sts	0x00A9, r1	; 0x8000a9 <valid_data_received>
+ 502:	08 95       	ret
+			}
+			else										// No valid data received.
+			{
+				PORTB &= ~(1 << PB2);					// LED off
+ 504:	c2 98       	cbi	0x18, 2	; 24
+				cnt_failed_new_data++;					// Increment the failed data counter.
+ 506:	80 91 a8 00 	lds	r24, 0x00A8	; 0x8000a8 <cnt_failed_new_data>
+ 50a:	8f 5f       	subi	r24, 0xFF	; 255
+ 50c:	80 93 a8 00 	sts	0x00A8, r24	; 0x8000a8 <cnt_failed_new_data>
+							
+				if (cnt_failed_new_data >= MAX_FAILED_NEW_DATA)	// Timeout for Rx-data!
+ 510:	8a 30       	cpi	r24, 0x0A	; 10
+ 512:	98 f0       	brcs	.+38     	; 0x53a <check_and_set_UART_state+0x56>
+				{
+					OCR1B = PWM_STOP;					// Set stop. Fail safe!
+ 514:	8a e5       	ldi	r24, 0x5A	; 90
+ 516:	8b bd       	out	0x2b, r24	; 43
+					uart_state = UART_CONNECTION_LOST;	// Set state for lost connection
+ 518:	82 e0       	ldi	r24, 0x02	; 2
+ 51a:	80 93 aa 00 	sts	0x00AA, r24	; 0x8000aa <uart_state>
+ 51e:	08 95       	ret
+			break;
+		}
+					
+		case UART_CONNECTION_LOST:						// UART lost connection.
+		{
+			cnt_led_toggle++;							// Increment the LED counter.
+ 520:	80 91 a7 00 	lds	r24, 0x00A7	; 0x8000a7 <cnt_led_toggle>
+ 524:	8f 5f       	subi	r24, 0xFF	; 255
+ 526:	80 93 a7 00 	sts	0x00A7, r24	; 0x8000a7 <cnt_led_toggle>
+						
+			if (cnt_led_toggle >= LED_TOGGLE_UART_LOST)
+ 52a:	8a 30       	cpi	r24, 0x0A	; 10
+ 52c:	30 f0       	brcs	.+12     	; 0x53a <check_and_set_UART_state+0x56>
+			{
+				PORTB ^= (1 << PB2);					// LED toggle slowly.
+ 52e:	98 b3       	in	r25, 0x18	; 24
+ 530:	84 e0       	ldi	r24, 0x04	; 4
+ 532:	89 27       	eor	r24, r25
+ 534:	88 bb       	out	0x18, r24	; 24
+				cnt_led_toggle = 0;						// Reset the counter for slowly LED toggle.
+ 536:	10 92 a7 00 	sts	0x00A7, r1	; 0x8000a7 <cnt_led_toggle>
+ 53a:	08 95       	ret
+
+Disassembly of section .text.check_motor_and_set_status:
+
+000005e4 <check_motor_and_set_status>:
+* @param void
+* @return void
+*/
+void check_motor_and_set_status(void)
+{	
+	if (!(PINB & (1 << PB3)) && motor_state == MOTOR_OK) // Low for failure if motor was OK. 
+ 5e4:	b3 99       	sbic	0x16, 3	; 22
+ 5e6:	13 c0       	rjmp	.+38     	; 0x60e <check_motor_and_set_status+0x2a>
+ 5e8:	80 91 ad 00 	lds	r24, 0x00AD	; 0x8000ad <motor_state>
+ 5ec:	8a 3a       	cpi	r24, 0xAA	; 170
+ 5ee:	79 f4       	brne	.+30     	; 0x60e <check_motor_and_set_status+0x2a>
+	{
+		cnt_motor_ok_after_fail = 0;					// Reset the counter for OK.
+ 5f0:	10 92 ab 00 	sts	0x00AB, r1	; 0x8000ab <cnt_motor_ok_after_fail>
+		cnt_motor_failure++;							// Increment the counter for failure.
+ 5f4:	80 91 ac 00 	lds	r24, 0x00AC	; 0x8000ac <cnt_motor_failure>
+ 5f8:	8f 5f       	subi	r24, 0xFF	; 255
+ 5fa:	80 93 ac 00 	sts	0x00AC, r24	; 0x8000ac <cnt_motor_failure>
+				
+		if (cnt_motor_failure >= MAX_MOTOR_FAILURE)
+ 5fe:	85 30       	cpi	r24, 0x05	; 5
+ 600:	c0 f0       	brcs	.+48     	; 0x632 <check_motor_and_set_status+0x4e>
+		{
+			OCR1B = PWM_STOP;							// Set the stop after max. times of Motor failure.
+ 602:	8a e5       	ldi	r24, 0x5A	; 90
+ 604:	8b bd       	out	0x2b, r24	; 43
+			motor_state = MOTOR_NOT_MORE_OK;			// Set Failure, if MAX_MOTOR_FAILURE is reached.
+ 606:	8c ec       	ldi	r24, 0xCC	; 204
+ 608:	80 93 ad 00 	sts	0x00AD, r24	; 0x8000ad <motor_state>
+ 60c:	08 95       	ret
+		}
+	}
+	else if ((PINB & (1 << PB3)) && motor_state == MOTOR_NOT_MORE_OK) // Again High after Failure.
+ 60e:	b3 9b       	sbis	0x16, 3	; 22
+ 610:	10 c0       	rjmp	.+32     	; 0x632 <check_motor_and_set_status+0x4e>
+ 612:	80 91 ad 00 	lds	r24, 0x00AD	; 0x8000ad <motor_state>
+ 616:	8c 3c       	cpi	r24, 0xCC	; 204
+ 618:	61 f4       	brne	.+24     	; 0x632 <check_motor_and_set_status+0x4e>
+	{
+		cnt_motor_failure = 0;							// Reset the counter for failure.
+ 61a:	10 92 ac 00 	sts	0x00AC, r1	; 0x8000ac <cnt_motor_failure>
+		cnt_motor_ok_after_fail++;						// Increment the counter for OK.
+ 61e:	80 91 ab 00 	lds	r24, 0x00AB	; 0x8000ab <cnt_motor_ok_after_fail>
+ 622:	8f 5f       	subi	r24, 0xFF	; 255
+ 624:	80 93 ab 00 	sts	0x00AB, r24	; 0x8000ab <cnt_motor_ok_after_fail>
+				
+		if (cnt_motor_ok_after_fail >= MAX_MOTOR_OK_AFTER_FAIL)
+ 628:	83 30       	cpi	r24, 0x03	; 3
+ 62a:	18 f0       	brcs	.+6      	; 0x632 <check_motor_and_set_status+0x4e>
+		{
+			motor_state = MOTOR_OK;						// Reset the motor state to OK.
+ 62c:	8a ea       	ldi	r24, 0xAA	; 170
+ 62e:	80 93 ad 00 	sts	0x00AD, r24	; 0x8000ad <motor_state>
+ 632:	08 95       	ret
+
+Disassembly of section .text.main:
+
+000003c0 <main>:
+	//if (OSCCAL != 0x4E)
+	//{
+		//flashNewOSCCALtoEEPROM(0x4E);
+	//}
+	
+	asm("nop"); // For debug!
+ 3c0:	00 00       	nop
+	
+	// Start at first the PWM to set the neutral PWM-signal to motor
+	Timer_and_PWM_Init();								// Initialization of Timer and PWM.
+ 3c2:	7b d1       	rcall	.+758    	; 0x6ba <Timer_and_PWM_Init>
+	
+	if (check_OK_on_Start())
+ 3c4:	e6 d0       	rcall	.+460    	; 0x592 <check_OK_on_Start>
+ 3c6:	88 23       	and	r24, r24
+ 3c8:	19 f0       	breq	.+6      	; 0x3d0 <main+0x10>
+	{
+		motor_state = MOTOR_OK;
+ 3ca:	8a ea       	ldi	r24, 0xAA	; 170
+ 3cc:	80 93 ad 00 	sts	0x00AD, r24	; 0x8000ad <motor_state>
+	}
+
+
+	DDRB |= (1 << PB2);									// LED Output
+ 3d0:	ba 9a       	sbi	0x17, 2	; 23
+	PORTB |= (1 << PB2);								// LED on to show that is one and wait for connection.
+ 3d2:	c2 9a       	sbi	0x18, 2	; 24
+	
+	USI_UART_Flush_Buffers();							// Clear all USI UART Buffers.	
+ 3d4:	a9 d1       	rcall	.+850    	; 0x728 <USI_UART_Flush_Buffers>
+	USI_UART_Initialise_Receiver();						// Initialization for USI_UART Receiver.
+ 3d6:	50 d1       	rcall	.+672    	; 0x678 <USI_UART_Initialise_Receiver>
+	
+	asm("nop"); // For debug!
+ 3d8:	00 00       	nop
+			else										// UART is ready
+			{
+				if (check_for_valid_value(Rx_Temp))		// Check, if data is valid in the range
+				{
+					OCR1B = Rx_Temp;					// Set the PWM value.
+					PORTB ^= (1 << PB2);				// LED toggle
+ 3da:	14 e0       	ldi	r17, 0x04	; 4
+					
+					valid_data_received = true;			// Set flag for valid data.
+ 3dc:	d1 e0       	ldi	r29, 0x01	; 1
+	asm("nop"); // For debug!
+	
+	// Main-Loop
+    while(1)
+    {			
+		if (USI_UART_Data_In_Receive_Buffer())			// Check for incoming data.	
+ 3de:	ba d1       	rcall	.+884    	; 0x754 <USI_UART_Data_In_Receive_Buffer>
+ 3e0:	88 23       	and	r24, r24
+ 3e2:	e9 f0       	breq	.+58     	; 0x41e <__LOCK_REGION_LENGTH__+0x1e>
+		{
+			uint8_t Rx_Temp = USI_UART_Receive_Byte();	// Store the data.
+ 3e4:	ab d0       	rcall	.+342    	; 0x53c <USI_UART_Receive_Byte>
+ 3e6:	c8 2f       	mov	r28, r24
+			
+			if (uart_state == UART_WAIT_FOR_SYNC)		// UART is not ready. Wait on startsignal.
+ 3e8:	80 91 aa 00 	lds	r24, 0x00AA	; 0x8000aa <uart_state>
+ 3ec:	81 11       	cpse	r24, r1
+ 3ee:	08 c0       	rjmp	.+16     	; 0x400 <__LOCK_REGION_LENGTH__>
+			{
+				if (Rx_Temp == PWM_STOP)				// PWM_STOP is also the startsignal from Raspberry Pi Pico
+ 3f0:	ca 35       	cpi	r28, 0x5A	; 90
+ 3f2:	a9 f4       	brne	.+42     	; 0x41e <__LOCK_REGION_LENGTH__+0x1e>
+				{
+					uart_state = UART_CONNECTED;		// Set UART connected.
+ 3f4:	d0 93 aa 00 	sts	0x00AA, r29	; 0x8000aa <uart_state>
+					USI_UART_Transmit_Byte(motor_state);// Send the motor_state after first Rx to say "Hello".
+ 3f8:	80 91 ad 00 	lds	r24, 0x00AD	; 0x8000ad <motor_state>
+ 3fc:	98 df       	rcall	.-208    	; 0x32e <USI_UART_Transmit_Byte>
+ 3fe:	0f c0       	rjmp	.+30     	; 0x41e <__LOCK_REGION_LENGTH__+0x1e>
+				}
+			}
+			else										// UART is ready
+			{
+				if (check_for_valid_value(Rx_Temp))		// Check, if data is valid in the range
+ 400:	8c 2f       	mov	r24, r28
+ 402:	70 d1       	rcall	.+736    	; 0x6e4 <check_for_valid_value>
+ 404:	88 23       	and	r24, r24
+ 406:	59 f0       	breq	.+22     	; 0x41e <__LOCK_REGION_LENGTH__+0x1e>
+				{
+					OCR1B = Rx_Temp;					// Set the PWM value.
+ 408:	cb bd       	out	0x2b, r28	; 43
+					PORTB ^= (1 << PB2);				// LED toggle
+ 40a:	88 b3       	in	r24, 0x18	; 24
+ 40c:	81 27       	eor	r24, r17
+ 40e:	88 bb       	out	0x18, r24	; 24
+					
+					valid_data_received = true;			// Set flag for valid data.
+ 410:	d0 93 a9 00 	sts	0x00A9, r29	; 0x8000a9 <valid_data_received>
+					uart_state = UART_CONNECTED;		// Set UART connected, if connection was lost.
+ 414:	d0 93 aa 00 	sts	0x00AA, r29	; 0x8000aa <uart_state>
+					USI_UART_Transmit_Byte(motor_state);// Send the motor_state after Rx to say "I am connected" (not in cycle to avoid a collision!).
+ 418:	80 91 ad 00 	lds	r24, 0x00AD	; 0x8000ad <motor_state>
+ 41c:	88 df       	rcall	.-240    	; 0x32e <USI_UART_Transmit_Byte>
+				}
+			}														
+		}
+		
+		if (Timer_shot_100_ms())						// Check every 100ms:				
+ 41e:	35 d0       	rcall	.+106    	; 0x48a <Timer_shot_100_ms>
+ 420:	88 23       	and	r24, r24
+ 422:	e9 f2       	breq	.-70     	; 0x3de <main+0x1e>
+		{
+			check_and_set_UART_state();					// 1.) UART state, to shut the motor off, after failure or reset.
+ 424:	5f d0       	rcall	.+190    	; 0x4e4 <check_and_set_UART_state>
+			check_motor_and_set_status();				// 2.) motor state
+ 426:	de d0       	rcall	.+444    	; 0x5e4 <check_motor_and_set_status>
+ 428:	da cf       	rjmp	.-76     	; 0x3de <main+0x1e>
+
+Disassembly of section .text.Bit_Reverse:
+
+00000708 <Bit_Reverse>:
+ * @param x original byte
+ * @return x reversed byte
+ */
+uint8_t Bit_Reverse(uint8_t x)
+{
+	x = ((x >> 1) & 0x55) | ((x << 1) & 0xaa);
+ 708:	98 2f       	mov	r25, r24
+ 70a:	96 95       	lsr	r25
+ 70c:	95 75       	andi	r25, 0x55	; 85
+ 70e:	88 0f       	add	r24, r24
+ 710:	8a 7a       	andi	r24, 0xAA	; 170
+ 712:	98 2b       	or	r25, r24
+	x = ((x >> 2) & 0x33) | ((x << 2) & 0xcc);
+ 714:	89 2f       	mov	r24, r25
+ 716:	86 95       	lsr	r24
+ 718:	86 95       	lsr	r24
+ 71a:	83 73       	andi	r24, 0x33	; 51
+ 71c:	99 0f       	add	r25, r25
+ 71e:	99 0f       	add	r25, r25
+ 720:	9c 7c       	andi	r25, 0xCC	; 204
+ 722:	89 2b       	or	r24, r25
+	x = ((x >> 4) & 0x0f) | ((x << 4) & 0xf0);
+	return x;
+}
+ 724:	82 95       	swap	r24
+ 726:	08 95       	ret
+
+Disassembly of section .text.USI_UART_Flush_Buffers:
+
+00000728 <USI_UART_Flush_Buffers>:
+ * @param void
+ * @return void
+ */
+void USI_UART_Flush_Buffers(void)
+{
+	UART_RxTail = 0;
+ 728:	10 92 af 00 	sts	0x00AF, r1	; 0x8000af <UART_RxTail>
+	UART_RxHead = 0;
+ 72c:	10 92 b0 00 	sts	0x00B0, r1	; 0x8000b0 <UART_RxHead>
+	UART_RxBuf_Count = 0;
+ 730:	10 92 ae 00 	sts	0x00AE, r1	; 0x8000ae <UART_RxBuf_Count>
+	UART_TxTail = 0;
+ 734:	10 92 b2 00 	sts	0x00B2, r1	; 0x8000b2 <UART_TxTail>
+	UART_TxHead = 0;
+ 738:	10 92 b3 00 	sts	0x00B3, r1	; 0x8000b3 <UART_TxHead>
+	UART_TxBuf_Count = 0;
+ 73c:	10 92 b1 00 	sts	0x00B1, r1	; 0x8000b1 <UART_TxBuf_Count>
+ 740:	08 95       	ret
+
+Disassembly of section .text.USI_UART_Initialise_Receiver:
+
+00000678 <USI_UART_Initialise_Receiver>:
+ * @param void
+ * @return void
+ */
+void USI_UART_Initialise_Receiver(void)
+{
+	while (USI_UART_state.RX_TX_state != WAIT_ON_RX_OR_TX);				// Wait until TX has finished, if TX was started before
+ 678:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 67c:	87 70       	andi	r24, 0x07	; 7
+ 67e:	e1 f7       	brne	.-8      	; 0x678 <USI_UART_Initialise_Receiver>
+	
+	cli();																// Interrupts disabled
+ 680:	f8 94       	cli
+	
+	PORTB |=  (1<<PB1)|(1<<PB0);										// Enable pull up on USI DO and DI pin.
+ 682:	88 b3       	in	r24, 0x18	; 24
+ 684:	83 60       	ori	r24, 0x03	; 3
+ 686:	88 bb       	out	0x18, r24	; 24
+	DDRB  &= ~(1<<PB1)|(1<<PB0);										// Set USI DO and DI pin as input; DO to not disturb RX
+ 688:	b9 98       	cbi	0x17, 1	; 23
+	
+	USICR = 0;															// Disable USI.
+ 68a:	1d b8       	out	0x0d, r1	; 13
+
+	GIFR =	(1<<PCIF);													// Clear pin change interrupt flag.
+ 68c:	80 e2       	ldi	r24, 0x20	; 32
+ 68e:	8a bf       	out	0x3a, r24	; 58
+	GIMSK |= (1<<PCIE);													// Enable pin change interrupt.
+ 690:	8b b7       	in	r24, 0x3b	; 59
+ 692:	80 62       	ori	r24, 0x20	; 32
+ 694:	8b bf       	out	0x3b, r24	; 59
+	PCMSK |= (1<<PCINT0);												// Enable pin change on pin PB0
+ 696:	a8 9a       	sbi	0x15, 0	; 21
+	
+	USI_UART_state.RX_TX_state = WAIT_ON_RX_OR_TX;						// Set Status to Wait on RX or TX. Line is free.
+ 698:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 69c:	88 7f       	andi	r24, 0xF8	; 248
+ 69e:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+	USI_UART_state.TX_aborted = FALSE;									// Set state to TX is not aborted
+ 6a2:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 6a6:	87 7f       	andi	r24, 0xF7	; 247
+ 6a8:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+	USI_UART_state.RX_Buffer_Overflow = FALSE;							// Reset state RX Buffer Overflow
+ 6ac:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 6b0:	8f 7e       	andi	r24, 0xEF	; 239
+ 6b2:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+	
+	sei();																// Enable global interrupts.
+ 6b6:	78 94       	sei
+ 6b8:	08 95       	ret
+
+Disassembly of section .text.USI_UART_Data_In_Receive_Buffer:
+
+00000754 <USI_UART_Data_In_Receive_Buffer>:
+ * @param void
+ * @return TRUE if data is in the buffer or FALSE if not
+ */
+uint8_t USI_UART_Data_In_Receive_Buffer(void)
+{
+	return (UART_RxBuf_Count > 0);										// Return 0 (FALSE) if the receive buffer is empty.
+ 754:	90 91 ae 00 	lds	r25, 0x00AE	; 0x8000ae <UART_RxBuf_Count>
+ 758:	81 e0       	ldi	r24, 0x01	; 1
+ 75a:	91 11       	cpse	r25, r1
+ 75c:	01 c0       	rjmp	.+2      	; 0x760 <USI_UART_Data_In_Receive_Buffer+0xc>
+ 75e:	80 e0       	ldi	r24, 0x00	; 0
+}
+ 760:	08 95       	ret
+
+Disassembly of section .text.USI_UART_Receive_Byte:
+
+0000053c <USI_UART_Receive_Byte>:
+ */
+uint8_t USI_UART_Receive_Byte(void)
+{
+	uint8_t temp_rx_byte;
+	
+	while (UART_RxBuf_Count == 0);										// Wait for incoming data.
+ 53c:	80 91 ae 00 	lds	r24, 0x00AE	; 0x8000ae <UART_RxBuf_Count>
+ 540:	88 23       	and	r24, r24
+ 542:	e1 f3       	breq	.-8      	; 0x53c <USI_UART_Receive_Byte>
+	
+	temp_rx_byte = 	(UART_RXBuf[UART_RxTail].Rx1 << 2) | 				// Combine the incoming parts of data.
+ 544:	e0 91 af 00 	lds	r30, 0x00AF	; 0x8000af <UART_RxTail>
+ 548:	f0 e0       	ldi	r31, 0x00	; 0
+ 54a:	ee 0f       	add	r30, r30
+ 54c:	ff 1f       	adc	r31, r31
+ 54e:	e0 5a       	subi	r30, 0xA0	; 160
+ 550:	ff 4f       	sbci	r31, 0xFF	; 255
+ 552:	80 81       	ld	r24, Z
+					((0x0F & UART_RXBuf[UART_RxTail].Rx2) >> 1);
+ 554:	e0 91 af 00 	lds	r30, 0x00AF	; 0x8000af <UART_RxTail>
+ 558:	f0 e0       	ldi	r31, 0x00	; 0
+ 55a:	ee 0f       	add	r30, r30
+ 55c:	ff 1f       	adc	r31, r31
+ 55e:	e0 5a       	subi	r30, 0xA0	; 160
+ 560:	ff 4f       	sbci	r31, 0xFF	; 255
+ 562:	91 81       	ldd	r25, Z+1	; 0x01
+{
+	uint8_t temp_rx_byte;
+	
+	while (UART_RxBuf_Count == 0);										// Wait for incoming data.
+	
+	temp_rx_byte = 	(UART_RXBuf[UART_RxTail].Rx1 << 2) | 				// Combine the incoming parts of data.
+ 564:	9f 70       	andi	r25, 0x0F	; 15
+ 566:	96 95       	lsr	r25
+ 568:	88 0f       	add	r24, r24
+ 56a:	88 0f       	add	r24, r24
+					((0x0F & UART_RXBuf[UART_RxTail].Rx2) >> 1);
+													 
+    temp_rx_byte = Bit_Reverse(temp_rx_byte);							// Reverse the order of the bits in the data byte.
+ 56c:	89 2b       	or	r24, r25
+ 56e:	cc d0       	rcall	.+408    	; 0x708 <Bit_Reverse>
+	
+	UART_RxTail = (UART_RxTail + 1) & UART_RX_BUFFER_MASK;				// Store new index.
+ 570:	90 91 af 00 	lds	r25, 0x00AF	; 0x8000af <UART_RxTail>
+ 574:	9f 5f       	subi	r25, 0xFF	; 255
+ 576:	9f 70       	andi	r25, 0x0F	; 15
+ 578:	90 93 af 00 	sts	0x00AF, r25	; 0x8000af <UART_RxTail>
+	UART_RxBuf_Count--;													// Decrement the stored data.
+ 57c:	90 91 ae 00 	lds	r25, 0x00AE	; 0x8000ae <UART_RxBuf_Count>
+ 580:	91 50       	subi	r25, 0x01	; 1
+ 582:	90 93 ae 00 	sts	0x00AE, r25	; 0x8000ae <UART_RxBuf_Count>
+	
+	USI_UART_state.RX_Buffer_Overflow = FALSE;							// Reset the Buffer Overflow flag, if it is set.
+ 586:	90 91 b4 00 	lds	r25, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 58a:	9f 7e       	andi	r25, 0xEF	; 239
+ 58c:	90 93 b4 00 	sts	0x00B4, r25	; 0x8000b4 <USI_UART_state>
+	return temp_rx_byte;												// Returns data from the buffer.
+}
+ 590:	08 95       	ret
+
+Disassembly of section .text.USI_UART_Transmit_Byte:
+
+0000032e <USI_UART_Transmit_Byte>:
+ * @param data as the data which has to be transmitted
+ * @return void
+ */
+void USI_UART_Transmit_Byte(uint8_t data)          
+{	
+	data = Bit_Reverse(data);											// Reverse the order of the bits.
+ 32e:	ec d1       	rcall	.+984    	; 0x708 <Bit_Reverse>
+		
+	while (UART_TxBuf_Count == UART_TX_BUFFER_SIZE);					// Wait for free space in buffer.
+ 330:	90 91 b1 00 	lds	r25, 0x00B1	; 0x8000b1 <UART_TxBuf_Count>
+ 334:	90 31       	cpi	r25, 0x10	; 16
+ 336:	e1 f3       	breq	.-8      	; 0x330 <USI_UART_Transmit_Byte+0x2>
+		
+	UART_TXBuf[UART_TxHead].Tx1 = 0x80 | (data >> 2);					// Load (initial high state,) start-bit and 5 LSB of original data (5 MSB of bit of bit reversed data)
+ 338:	e0 91 b3 00 	lds	r30, 0x00B3	; 0x8000b3 <UART_TxHead>
+ 33c:	f0 e0       	ldi	r31, 0x00	; 0
+ 33e:	98 2f       	mov	r25, r24
+ 340:	96 95       	lsr	r25
+ 342:	96 95       	lsr	r25
+ 344:	90 68       	ori	r25, 0x80	; 128
+ 346:	ee 0f       	add	r30, r30
+ 348:	ff 1f       	adc	r31, r31
+ 34a:	e0 58       	subi	r30, 0x80	; 128
+ 34c:	ff 4f       	sbci	r31, 0xFF	; 255
+ 34e:	90 83       	st	Z, r25
+	UART_TXBuf[UART_TxHead].Tx2 = (data << 5) | 0x1F;					// Load and shift data for second TX from Buffer and fill with Stop bits
+ 350:	e0 91 b3 00 	lds	r30, 0x00B3	; 0x8000b3 <UART_TxHead>
+ 354:	f0 e0       	ldi	r31, 0x00	; 0
+ 356:	82 95       	swap	r24
+ 358:	88 0f       	add	r24, r24
+ 35a:	80 7e       	andi	r24, 0xE0	; 224
+ 35c:	8f 61       	ori	r24, 0x1F	; 31
+ 35e:	ee 0f       	add	r30, r30
+ 360:	ff 1f       	adc	r31, r31
+ 362:	e0 58       	subi	r30, 0x80	; 128
+ 364:	ff 4f       	sbci	r31, 0xFF	; 255
+ 366:	81 83       	std	Z+1, r24	; 0x01
+			
+	UART_TxHead = (UART_TxHead + 1) & UART_TX_BUFFER_MASK;				// Calculate and Store new index.
+ 368:	80 91 b3 00 	lds	r24, 0x00B3	; 0x8000b3 <UART_TxHead>
+ 36c:	8f 5f       	subi	r24, 0xFF	; 255
+ 36e:	8f 70       	andi	r24, 0x0F	; 15
+ 370:	80 93 b3 00 	sts	0x00B3, r24	; 0x8000b3 <UART_TxHead>
+	UART_TxBuf_Count++;													// Increment the number of stored Bytes	
+ 374:	80 91 b1 00 	lds	r24, 0x00B1	; 0x8000b1 <UART_TxBuf_Count>
+ 378:	8f 5f       	subi	r24, 0xFF	; 255
+ 37a:	80 93 b1 00 	sts	0x00B1, r24	; 0x8000b1 <UART_TxBuf_Count>
+
+	// Start first transmission if line is free
+	if	(USI_UART_state.RX_TX_state == WAIT_ON_RX_OR_TX)
+ 37e:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 382:	87 70       	andi	r24, 0x07	; 7
+ 384:	e1 f4       	brne	.+56     	; 0x3be <USI_UART_Transmit_Byte+0x90>
+	{
+		cli();															// Interrupts disabled
+ 386:	f8 94       	cli
+		
+		// Start Timer0
+		TCCR0A = (1<<WGM01);											// Choose Timer0 in CTC mode
+ 388:	82 e0       	ldi	r24, 0x02	; 2
+ 38a:	8a bd       	out	0x2a, r24	; 42
+		TCCR0B = CLOCKSELECT;											// Start Counter and set prescaler to clk or clk /8; here: Baudrate:9600: 8
+ 38c:	83 bf       	out	0x33, r24	; 51
+		TCNT0 = 0;														// Count up from 0
+ 38e:	12 be       	out	0x32, r1	; 50
+		OCR0A = OCR0A_FULL;												// Set Output Compare Match Value for full Bit width, here: Baud rate:9600: 51
+ 390:	87 e6       	ldi	r24, 0x67	; 103
+ 392:	89 bd       	out	0x29, r24	; 41
+		
+		// Enable USI
+		USICR = (0<<USISIE)|(1<<USIOIE)|								// Enable USI Counter OVF interrupt.
+ 394:	84 e5       	ldi	r24, 0x54	; 84
+ 396:	8d b9       	out	0x0d, r24	; 13
+				(0<<USIWM1)|(1<<USIWM0)|								// Select Three Wire mode.
+				(0<<USICS1)|(1<<USICS0)|(0<<USICLK)|					// Select Timer0 Compare Match as USI Clock source.
+				(0<<USITC);
+		USIDR = UART_TXBuf[UART_TxTail].Tx1;							// Copy (initial high state,) start-bit and 5 LSB of original data (5 MSB
+ 398:	e0 91 b2 00 	lds	r30, 0x00B2	; 0x8000b2 <UART_TxTail>
+ 39c:	f0 e0       	ldi	r31, 0x00	; 0
+ 39e:	ee 0f       	add	r30, r30
+ 3a0:	ff 1f       	adc	r31, r31
+ 3a2:	e0 58       	subi	r30, 0x80	; 128
+ 3a4:	ff 4f       	sbci	r31, 0xFF	; 255
+ 3a6:	80 81       	ld	r24, Z
+ 3a8:	8f b9       	out	0x0f, r24	; 15
+																		// of bit of bit reversed data)										
+		USISR = (1<<USISIF)|(1<<USIOIF)|(1<<USIPF)|						// Clear all USI interrupt flags.
+ 3aa:	89 ee       	ldi	r24, 0xE9	; 233
+ 3ac:	8e b9       	out	0x0e, r24	; 14
+				(USI_COUNTER_SEED_TX_FIRST);							// Preload the USI counter to generate interrupt.
+				
+		DDRB |= (1<<PB1);												// Configure USI_DO as output
+ 3ae:	b9 9a       	sbi	0x17, 1	; 23
+		
+		USI_UART_state.RX_TX_state = TX_FIRST;							// Set state to TX First
+ 3b0:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 3b4:	88 7f       	andi	r24, 0xF8	; 248
+ 3b6:	85 60       	ori	r24, 0x05	; 5
+ 3b8:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+		sei();															// Interrupts enabled
+ 3bc:	78 94       	sei
+ 3be:	08 95       	ret
+
+Disassembly of section .text.__vector_2:
+
+00000276 <__vector_2>:
+/**
+ * The pin change interrupt is used to detect USI_UART reception.
+ * The USI is here configured to sample the UART signal.
+ */                                  
+ISR(PCINT0_vect)                              
+{                                                                   
+ 276:	1f 92       	push	r1
+ 278:	1f b6       	in	r1, 0x3f	; 63
+ 27a:	1f 92       	push	r1
+ 27c:	11 24       	eor	r1, r1
+ 27e:	8f 93       	push	r24
+    if (!(PINB & (1<<PB0)))												// Trigger only if DI is Low, which generates the Pin Change Interrupt
+ 280:	b0 99       	sbic	0x16, 0	; 22
+ 282:	50 c0       	rjmp	.+160    	; 0x324 <__vector_2+0xae>
+    {			
+		// Check, if TX was running
+		if	(USI_UART_state.RX_TX_state == AFTER_RX_TO_START_TX ||		// If Status Wait after Reception for start of Transmission again
+ 284:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 288:	87 70       	andi	r24, 0x07	; 7
+ 28a:	84 30       	cpi	r24, 0x04	; 4
+ 28c:	49 f0       	breq	.+18     	; 0x2a0 <__vector_2+0x2a>
+			(USI_UART_state.RX_TX_state == TX_FIRST &&					// If TX has started but has send only the High-Bit
+ 28e:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 292:	87 70       	andi	r24, 0x07	; 7
+ISR(PCINT0_vect)                              
+{                                                                   
+    if (!(PINB & (1<<PB0)))												// Trigger only if DI is Low, which generates the Pin Change Interrupt
+    {			
+		// Check, if TX was running
+		if	(USI_UART_state.RX_TX_state == AFTER_RX_TO_START_TX ||		// If Status Wait after Reception for start of Transmission again
+ 294:	85 30       	cpi	r24, 0x05	; 5
+ 296:	31 f4       	brne	.+12     	; 0x2a4 <__vector_2+0x2e>
+			(USI_UART_state.RX_TX_state == TX_FIRST &&					// If TX has started but has send only the High-Bit
+			((USISR & 0x0F) == USI_COUNTER_SEED_TX_FIRST)))				
+ 298:	8e b1       	in	r24, 0x0e	; 14
+{                                                                   
+    if (!(PINB & (1<<PB0)))												// Trigger only if DI is Low, which generates the Pin Change Interrupt
+    {			
+		// Check, if TX was running
+		if	(USI_UART_state.RX_TX_state == AFTER_RX_TO_START_TX ||		// If Status Wait after Reception for start of Transmission again
+			(USI_UART_state.RX_TX_state == TX_FIRST &&					// If TX has started but has send only the High-Bit
+ 29a:	8f 70       	andi	r24, 0x0F	; 15
+ 29c:	89 30       	cpi	r24, 0x09	; 9
+ 29e:	11 f4       	brne	.+4      	; 0x2a4 <__vector_2+0x2e>
+			((USISR & 0x0F) == USI_COUNTER_SEED_TX_FIRST)))				
+		{
+			DDRB  &= ~(1<<PB1);											// Set USI DO pin as input, to not disturb Rx
+ 2a0:	b9 98       	cbi	0x17, 1	; 23
+ 2a2:	28 c0       	rjmp	.+80     	; 0x2f4 <__vector_2+0x7e>
+		} 
+		else if (USI_UART_state.RX_TX_state == TX_SECOND &&				// If TX has sent the last Bit but USI Counter has not reached the overflow
+ 2a4:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 2a8:	87 70       	andi	r24, 0x07	; 7
+ 2aa:	86 30       	cpi	r24, 0x06	; 6
+ 2ac:	89 f4       	brne	.+34     	; 0x2d0 <__vector_2+0x5a>
+				((USISR & 0x0F) == 15))									// TX will be seen as finished and the index of stored data will be increased
+ 2ae:	8e b1       	in	r24, 0x0e	; 14
+			(USI_UART_state.RX_TX_state == TX_FIRST &&					// If TX has started but has send only the High-Bit
+			((USISR & 0x0F) == USI_COUNTER_SEED_TX_FIRST)))				
+		{
+			DDRB  &= ~(1<<PB1);											// Set USI DO pin as input, to not disturb Rx
+		} 
+		else if (USI_UART_state.RX_TX_state == TX_SECOND &&				// If TX has sent the last Bit but USI Counter has not reached the overflow
+ 2b0:	8f 70       	andi	r24, 0x0F	; 15
+ 2b2:	8f 30       	cpi	r24, 0x0F	; 15
+ 2b4:	69 f4       	brne	.+26     	; 0x2d0 <__vector_2+0x5a>
+				((USISR & 0x0F) == 15))									// TX will be seen as finished and the index of stored data will be increased
+		{																
+			UART_TxTail = (UART_TxTail + 1) & UART_TX_BUFFER_MASK;		// Store new index of Tail for next transmission
+ 2b6:	80 91 b2 00 	lds	r24, 0x00B2	; 0x8000b2 <UART_TxTail>
+ 2ba:	8f 5f       	subi	r24, 0xFF	; 255
+ 2bc:	8f 70       	andi	r24, 0x0F	; 15
+ 2be:	80 93 b2 00 	sts	0x00B2, r24	; 0x8000b2 <UART_TxTail>
+			UART_TxBuf_Count--;											// Decrement the stored data
+ 2c2:	80 91 b1 00 	lds	r24, 0x00B1	; 0x8000b1 <UART_TxBuf_Count>
+ 2c6:	81 50       	subi	r24, 0x01	; 1
+ 2c8:	80 93 b1 00 	sts	0x00B1, r24	; 0x8000b1 <UART_TxBuf_Count>
+
+			DDRB  &= ~(1<<PB1);											// Set USI DO pin as input, to not disturb Rx
+ 2cc:	b9 98       	cbi	0x17, 1	; 23
+ 2ce:	12 c0       	rjmp	.+36     	; 0x2f4 <__vector_2+0x7e>
+		}
+		else if (USI_UART_state.RX_TX_state == TX_FIRST ||				// If TX was running somewhere
+ 2d0:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 2d4:	87 70       	andi	r24, 0x07	; 7
+ 2d6:	85 30       	cpi	r24, 0x05	; 5
+ 2d8:	29 f0       	breq	.+10     	; 0x2e4 <__vector_2+0x6e>
+				(USI_UART_state.RX_TX_state == TX_SECOND))
+ 2da:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 2de:	87 70       	andi	r24, 0x07	; 7
+			UART_TxTail = (UART_TxTail + 1) & UART_TX_BUFFER_MASK;		// Store new index of Tail for next transmission
+			UART_TxBuf_Count--;											// Decrement the stored data
+
+			DDRB  &= ~(1<<PB1);											// Set USI DO pin as input, to not disturb Rx
+		}
+		else if (USI_UART_state.RX_TX_state == TX_FIRST ||				// If TX was running somewhere
+ 2e0:	86 30       	cpi	r24, 0x06	; 6
+ 2e2:	41 f4       	brne	.+16     	; 0x2f4 <__vector_2+0x7e>
+				(USI_UART_state.RX_TX_state == TX_SECOND))
+		{
+			USIDR &= ~0xFE;												// Set Output to Low for DO Low, except the DI-Bit
+ 2e4:	8f b1       	in	r24, 0x0f	; 15
+ 2e6:	81 70       	andi	r24, 0x01	; 1
+ 2e8:	8f b9       	out	0x0f, r24	; 15
+			USI_UART_state.TX_aborted = TRUE;							// Set TX aborted state to first Byte was aborted
+ 2ea:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 2ee:	88 60       	ori	r24, 0x08	; 8
+ 2f0:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+		}		
+
+		//Start Reception																	
+		if ((TCCR0B & ((1<<CS02)|(1<<CS01)|(1<<CS00))) == 0)			// If Timer0 is not already running
+ 2f4:	83 b7       	in	r24, 0x33	; 51
+ 2f6:	87 70       	andi	r24, 0x07	; 7
+ 2f8:	19 f4       	brne	.+6      	; 0x300 <__vector_2+0x8a>
+		{
+			TCCR0A = (1<<WGM01);										// CTC mode
+ 2fa:	82 e0       	ldi	r24, 0x02	; 2
+ 2fc:	8a bd       	out	0x2a, r24	; 42
+			TCCR0B = CLOCKSELECT;										// Start Counter and set prescaler to clk or clk /8; here: Baudrate: 9600: 8
+ 2fe:	83 bf       	out	0x33, r24	; 51
+		}
+
+		TCNT0 = 0;														// Count up from 0
+ 300:	12 be       	out	0x32, r1	; 50
+		OCR0A = OCR0A_FIRST;											// Set Output Compare Match Value minus Interrupt-Delay for sampling the middle of the Start Bit 
+ 302:	87 e2       	ldi	r24, 0x27	; 39
+ 304:	89 bd       	out	0x29, r24	; 41
+																		// here: Baud rate: 9600: 51 - 12 = 39											
+		
+		TIFR |= (1<<OCF0A);												// Clear output compare interrupt flag
+ 306:	88 b7       	in	r24, 0x38	; 56
+ 308:	80 61       	ori	r24, 0x10	; 16
+ 30a:	88 bf       	out	0x38, r24	; 56
+		TIMSK |= (1<<OCIE0A);											// Enable output compare interrupt
+ 30c:	89 b7       	in	r24, 0x39	; 57
+ 30e:	80 61       	ori	r24, 0x10	; 16
+ 310:	89 bf       	out	0x39, r24	; 57
+		
+		GIMSK &= ~(1<<PCIE);											// Disable pin change interrupt.
+ 312:	8b b7       	in	r24, 0x3b	; 59
+ 314:	8f 7d       	andi	r24, 0xDF	; 223
+ 316:	8b bf       	out	0x3b, r24	; 59
+
+		USI_UART_state.RX_TX_state = RX_GET_STARTBIT;					// Set state to Reception Wait until Timer Overflow
+ 318:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 31c:	88 7f       	andi	r24, 0xF8	; 248
+ 31e:	81 60       	ori	r24, 0x01	; 1
+ 320:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+    }	
+}
+ 324:	8f 91       	pop	r24
+ 326:	1f 90       	pop	r1
+ 328:	1f be       	out	0x3f, r1	; 63
+ 32a:	1f 90       	pop	r1
+ 32c:	18 95       	reti
+
+Disassembly of section .text.__vector_10:
+
+00000634 <__vector_10>:
+/**
+ * Timer0 Compare Match A interrupt is used to trigger the sampling of signals
+ * on the USI ports, if reception is ongoing.
+ */         
+ISR(TIMER0_COMPA_vect)
+{	
+ 634:	1f 92       	push	r1
+ 636:	1f b6       	in	r1, 0x3f	; 63
+ 638:	1f 92       	push	r1
+ 63a:	11 24       	eor	r1, r1
+ 63c:	8f 93       	push	r24
+	TCNT0 = 0;															// Count up from 0
+ 63e:	12 be       	out	0x32, r1	; 50
+	OCR0A = OCR0A_FULL;													// Shift every bit width, here 103 Timer Cycles
+ 640:	87 e6       	ldi	r24, 0x67	; 103
+ 642:	89 bd       	out	0x29, r24	; 41
+
+	if (USI_UART_state.TX_aborted)
+ 644:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 648:	83 ff       	sbrs	r24, 3
+ 64a:	04 c0       	rjmp	.+8      	; 0x654 <__vector_10+0x20>
+	{
+		USIDR &= ~0xFE;													// Set Output to Low for DO Low, except the DI-Bit
+ 64c:	8f b1       	in	r24, 0x0f	; 15
+ 64e:	81 70       	andi	r24, 0x01	; 1
+ 650:	8f b9       	out	0x0f, r24	; 15
+ 652:	02 c0       	rjmp	.+4      	; 0x658 <__vector_10+0x24>
+	}
+	else
+	{
+		USICR = (0<<USISIE)|(1<<USIOIE)|								// Enable USI Counter OVF interrupt.
+ 654:	84 e5       	ldi	r24, 0x54	; 84
+ 656:	8d b9       	out	0x0d, r24	; 13
+				(0<<USIWM1)|(1<<USIWM0)|								// Select Three Wire mode.
+				(0<<USICS1)|(1<<USICS0)|(0<<USICLK)|					// Select Timer0 Compare Match as USI Clock source.
+				(0<<USITC);
+	}
+		
+	USISR = (1<<USISIF)|(1<<USIOIF)|(1<<USIPF)|							// Clear all USI interrupt flags.
+ 658:	8a ee       	ldi	r24, 0xEA	; 234
+ 65a:	8e b9       	out	0x0e, r24	; 14
+			USI_COUNTER_SEED_RX_FIRST;									// Preload the USI counter to generate interrupt after the reception of the data bits
+		
+	TIMSK &= ~(1<<OCIE0A);												// Disable COMPA interrupt
+ 65c:	89 b7       	in	r24, 0x39	; 57
+ 65e:	8f 7e       	andi	r24, 0xEF	; 239
+ 660:	89 bf       	out	0x39, r24	; 57
+		
+	USI_UART_state.RX_TX_state = RX_FIRST;								// Set state to Reception is ongoing
+ 662:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 666:	88 7f       	andi	r24, 0xF8	; 248
+ 668:	82 60       	ori	r24, 0x02	; 2
+ 66a:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+}
+ 66e:	8f 91       	pop	r24
+ 670:	1f 90       	pop	r1
+ 672:	1f be       	out	0x3f, r1	; 63
+ 674:	1f 90       	pop	r1
+ 676:	18 95       	reti
+
+Disassembly of section .text.__vector_14:
+
+00000096 <__vector_14>:
+/**
+ * The USI Counter Overflow interrupt is used for moving data between memory and the USI data register.
+ * The interrupt is used for both transmission and reception.
+ */ 
+ISR(USI_OVF_vect)
+{	
+  96:	1f 92       	push	r1
+  98:	1f b6       	in	r1, 0x3f	; 63
+  9a:	1f 92       	push	r1
+  9c:	11 24       	eor	r1, r1
+  9e:	8f 93       	push	r24
+  a0:	ef 93       	push	r30
+  a2:	ff 93       	push	r31
+	USISR = (1<<USISIF)|(1<<USIOIF)|(1<<USIPF);							// Clear all USI interrupt flags.
+  a4:	80 ee       	ldi	r24, 0xE0	; 224
+  a6:	8e b9       	out	0x0e, r24	; 14
+
+	switch (USI_UART_state.RX_TX_state)
+  a8:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+  ac:	87 70       	andi	r24, 0x07	; 7
+  ae:	84 30       	cpi	r24, 0x04	; 4
+  b0:	09 f4       	brne	.+2      	; 0xb4 <__vector_14+0x1e>
+  b2:	89 c0       	rjmp	.+274    	; 0x1c6 <__vector_14+0x130>
+  b4:	28 f4       	brcc	.+10     	; 0xc0 <__vector_14+0x2a>
+  b6:	82 30       	cpi	r24, 0x02	; 2
+  b8:	51 f0       	breq	.+20     	; 0xce <__vector_14+0x38>
+  ba:	83 30       	cpi	r24, 0x03	; 3
+  bc:	61 f1       	breq	.+88     	; 0x116 <__vector_14+0x80>
+  be:	d4 c0       	rjmp	.+424    	; 0x268 <__stack+0x9>
+  c0:	85 30       	cpi	r24, 0x05	; 5
+  c2:	09 f4       	brne	.+2      	; 0xc6 <__vector_14+0x30>
+  c4:	93 c0       	rjmp	.+294    	; 0x1ec <__vector_14+0x156>
+  c6:	86 30       	cpi	r24, 0x06	; 6
+  c8:	09 f4       	brne	.+2      	; 0xcc <__vector_14+0x36>
+  ca:	a3 c0       	rjmp	.+326    	; 0x212 <__DATA_REGION_LENGTH__+0x12>
+  cc:	cd c0       	rjmp	.+410    	; 0x268 <__stack+0x9>
+			break;
+		}
+		
+		case RX_FIRST:													// After state Reception ongoing
+		{			
+			USI_UART_state.RX_TX_state = RX_SECOND;						// Set state to Waiting on Rx-Stop bit
+  ce:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+  d2:	88 7f       	andi	r24, 0xF8	; 248
+  d4:	83 60       	ori	r24, 0x03	; 3
+  d6:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+			
+			if (UART_RxBuf_Count < UART_RX_BUFFER_SIZE)					// If there is space in the buffer then store the data.
+  da:	80 91 ae 00 	lds	r24, 0x00AE	; 0x8000ae <UART_RxBuf_Count>
+  de:	80 31       	cpi	r24, 0x10	; 16
+  e0:	68 f4       	brcc	.+26     	; 0xfc <__vector_14+0x66>
+			{
+				UART_RXBuf[UART_RxHead].Rx1 = USIBR;					// Store first 7 Bits of received data in buffer.
+  e2:	e0 91 b0 00 	lds	r30, 0x00B0	; 0x8000b0 <UART_RxHead>
+  e6:	f0 e0       	ldi	r31, 0x00	; 0
+  e8:	80 b3       	in	r24, 0x10	; 16
+  ea:	ee 0f       	add	r30, r30
+  ec:	ff 1f       	adc	r31, r31
+  ee:	e0 5a       	subi	r30, 0xA0	; 160
+  f0:	ff 4f       	sbci	r31, 0xFF	; 255
+  f2:	80 83       	st	Z, r24
+				USISR |= USI_COUNTER_SEED_RX_SECOND;					// Preload the USI counter to get the last bits until next interrupt.
+  f4:	8e b1       	in	r24, 0x0e	; 14
+  f6:	8d 60       	ori	r24, 0x0D	; 13
+  f8:	8e b9       	out	0x0e, r24	; 14
+  fa:	05 c0       	rjmp	.+10     	; 0x106 <__vector_14+0x70>
+			}
+			else														// If buffer is full trash data and set buffer full flag.
+			{
+				USI_UART_state.RX_Buffer_Overflow = TRUE;				// Store state to take actions elsewhere in the application code
+  fc:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 100:	80 61       	ori	r24, 0x10	; 16
+ 102:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+			}
+			
+			if (USI_UART_state.TX_aborted)								// Check if Tx was aborted somewhere at first byte.
+ 106:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 10a:	83 ff       	sbrs	r24, 3
+ 10c:	ad c0       	rjmp	.+346    	; 0x268 <__stack+0x9>
+			{
+				USIDR &= ~0xFE;											// Set Output to Low for DO Low, except the DI-Bit.
+ 10e:	8f b1       	in	r24, 0x0f	; 15
+ 110:	81 70       	andi	r24, 0x01	; 1
+ 112:	8f b9       	out	0x0f, r24	; 15
+ 114:	a9 c0       	rjmp	.+338    	; 0x268 <__stack+0x9>
+			break;
+		}
+		
+		case RX_SECOND:													// After state Waiting for RX-Stop bit
+		{
+			if ((USIBR & 0x01) && !USI_UART_state.RX_Buffer_Overflow)	// Check for Stop bit. If Stop bit was send successful, increment UART_RXHead and the Buffer counter 
+ 116:	80 9b       	sbis	0x10, 0	; 16
+ 118:	18 c0       	rjmp	.+48     	; 0x14a <__vector_14+0xb4>
+ 11a:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 11e:	84 fd       	sbrc	r24, 4
+ 120:	14 c0       	rjmp	.+40     	; 0x14a <__vector_14+0xb4>
+																		// else store the next incoming data at the same place to overwrite the corrupted byte.
+			{
+				UART_RXBuf[UART_RxHead].Rx2 = USIBR;					// Store last Bit of received data in buffer.
+ 122:	e0 91 b0 00 	lds	r30, 0x00B0	; 0x8000b0 <UART_RxHead>
+ 126:	f0 e0       	ldi	r31, 0x00	; 0
+ 128:	80 b3       	in	r24, 0x10	; 16
+ 12a:	ee 0f       	add	r30, r30
+ 12c:	ff 1f       	adc	r31, r31
+ 12e:	e0 5a       	subi	r30, 0xA0	; 160
+ 130:	ff 4f       	sbci	r31, 0xFF	; 255
+ 132:	81 83       	std	Z+1, r24	; 0x01
+				UART_RxHead = (UART_RxHead + 1) & UART_RX_BUFFER_MASK;	// Calculate and Store new index.
+ 134:	80 91 b0 00 	lds	r24, 0x00B0	; 0x8000b0 <UART_RxHead>
+ 138:	8f 5f       	subi	r24, 0xFF	; 255
+ 13a:	8f 70       	andi	r24, 0x0F	; 15
+ 13c:	80 93 b0 00 	sts	0x00B0, r24	; 0x8000b0 <UART_RxHead>
+				UART_RxBuf_Count++;										// Increment the number of stored Bytes	
+ 140:	80 91 ae 00 	lds	r24, 0x00AE	; 0x8000ae <UART_RxBuf_Count>
+ 144:	8f 5f       	subi	r24, 0xFF	; 255
+ 146:	80 93 ae 00 	sts	0x00AE, r24	; 0x8000ae <UART_RxBuf_Count>
+			}
+			
+			if (USI_UART_state.TX_aborted)								// Check if Tx was aborted somewhere at first byte.
+ 14a:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 14e:	83 ff       	sbrs	r24, 3
+ 150:	12 c0       	rjmp	.+36     	; 0x176 <__vector_14+0xe0>
+			{
+				USI_UART_state.RX_TX_state = AFTER_RX_TO_START_TX;		// Set state Status wait after RX on TX
+ 152:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 156:	88 7f       	andi	r24, 0xF8	; 248
+ 158:	84 60       	ori	r24, 0x04	; 4
+ 15a:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+									
+				USISR |= USI_COUNTER_SEED_RX_TO_TX;						// Preload the USI counter to generate interrupt. (14)
+ 15e:	8e b1       	in	r24, 0x0e	; 14
+ 160:	8e 60       	ori	r24, 0x0E	; 14
+ 162:	8e b9       	out	0x0e, r24	; 14
+				USIDR |= 0x7F;											// Set USIDR Output 1 Bit Low and 1 Bit High
+ 164:	8f b1       	in	r24, 0x0f	; 15
+ 166:	8f 67       	ori	r24, 0x7F	; 127
+ 168:	8f b9       	out	0x0f, r24	; 15
+				
+				USI_UART_state.TX_aborted = FALSE;
+ 16a:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 16e:	87 7f       	andi	r24, 0xF7	; 247
+ 170:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+ 174:	21 c0       	rjmp	.+66     	; 0x1b8 <__vector_14+0x122>
+			}
+			else														// TX_aborted==FALSE 
+			{				
+				if (UART_TxBuf_Count > 0)								// Check for data in Tx Buffer.
+ 176:	80 91 b1 00 	lds	r24, 0x00B1	; 0x8000b1 <UART_TxBuf_Count>
+ 17a:	88 23       	and	r24, r24
+ 17c:	a1 f0       	breq	.+40     	; 0x1a6 <__vector_14+0x110>
+				{
+					USI_UART_state.RX_TX_state = TX_FIRST;				// Set state to TX First again.
+ 17e:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 182:	88 7f       	andi	r24, 0xF8	; 248
+ 184:	85 60       	ori	r24, 0x05	; 5
+ 186:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+										
+					USIDR = UART_TXBuf[UART_TxTail].Tx1;				// Copy (initial high state,) start-bit and 5 LSB of original data (5 MSB) of aborted Tail
+ 18a:	e0 91 b2 00 	lds	r30, 0x00B2	; 0x8000b2 <UART_TxTail>
+ 18e:	f0 e0       	ldi	r31, 0x00	; 0
+ 190:	ee 0f       	add	r30, r30
+ 192:	ff 1f       	adc	r31, r31
+ 194:	e0 58       	subi	r30, 0x80	; 128
+ 196:	ff 4f       	sbci	r31, 0xFF	; 255
+ 198:	80 81       	ld	r24, Z
+ 19a:	8f b9       	out	0x0f, r24	; 15
+					USISR |= USI_COUNTER_SEED_TX_FIRST;					// Preload the USI counter to generate interrupt.
+ 19c:	8e b1       	in	r24, 0x0e	; 14
+ 19e:	89 60       	ori	r24, 0x09	; 9
+ 1a0:	8e b9       	out	0x0e, r24	; 14
+					
+					DDRB |= (1<<PB1);									// Configure USI_DO as output
+ 1a2:	b9 9a       	sbi	0x17, 1	; 23
+ 1a4:	09 c0       	rjmp	.+18     	; 0x1b8 <__vector_14+0x122>
+				}
+				else													// Else initialize for Rx again.
+				{
+					USI_UART_state.RX_TX_state = WAIT_ON_RX_OR_TX;		// Set Status to Wait on RX or TX. Line is free.
+ 1a6:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 1aa:	88 7f       	andi	r24, 0xF8	; 248
+ 1ac:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+
+					TCCR0B = (0<<CS02)|(0<<CS01)|(0<<CS00);				// Stop Timer0.
+ 1b0:	13 be       	out	0x33, r1	; 51
+					USICR = 0;											// Disable USI.
+ 1b2:	1d b8       	out	0x0d, r1	; 13
+					PORTB |= (1<<PB1);									// Enable pull up on USI DO pin.
+ 1b4:	c1 9a       	sbi	0x18, 1	; 24
+					DDRB  &= ~(1<<PB1);									// Set USI DO pin as input, to not disturb Rx
+ 1b6:	b9 98       	cbi	0x17, 1	; 23
+				}
+			}
+																		// Initialize for Receive again.
+			GIFR =	(1<<PCIF);											// Clear pin change interrupt flag.
+ 1b8:	80 e2       	ldi	r24, 0x20	; 32
+ 1ba:	8a bf       	out	0x3a, r24	; 58
+			GIMSK |= (1<<PCIE);											// Enable pin change interrupt.
+ 1bc:	8b b7       	in	r24, 0x3b	; 59
+ 1be:	80 62       	ori	r24, 0x20	; 32
+ 1c0:	8b bf       	out	0x3b, r24	; 59
+			PCMSK |= (1<<PCINT0);										// Enable pin change on pin PB0.				
+ 1c2:	a8 9a       	sbi	0x15, 0	; 21
+			
+			break;	
+ 1c4:	51 c0       	rjmp	.+162    	; 0x268 <__stack+0x9>
+		}
+		
+		case AFTER_RX_TO_START_TX:										// After Status wait after RX to start TX
+		{	
+			USI_UART_state.RX_TX_state = TX_FIRST;			 			// Set state to TX First again
+ 1c6:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 1ca:	88 7f       	andi	r24, 0xF8	; 248
+ 1cc:	85 60       	ori	r24, 0x05	; 5
+ 1ce:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+			
+			USIDR = UART_TXBuf[UART_TxTail].Tx1;						// Copy (initial high state,) start-bit and 5 LSB of original data (5 MSB)
+ 1d2:	e0 91 b2 00 	lds	r30, 0x00B2	; 0x8000b2 <UART_TxTail>
+ 1d6:	f0 e0       	ldi	r31, 0x00	; 0
+ 1d8:	ee 0f       	add	r30, r30
+ 1da:	ff 1f       	adc	r31, r31
+ 1dc:	e0 58       	subi	r30, 0x80	; 128
+ 1de:	ff 4f       	sbci	r31, 0xFF	; 255
+ 1e0:	80 81       	ld	r24, Z
+ 1e2:	8f b9       	out	0x0f, r24	; 15
+			USISR |= (USI_COUNTER_SEED_TX_FIRST);						// Preload the USI counter to generate interrupt.
+ 1e4:	8e b1       	in	r24, 0x0e	; 14
+ 1e6:	89 60       	ori	r24, 0x09	; 9
+ 1e8:	8e b9       	out	0x0e, r24	; 14
+			
+			break;
+ 1ea:	3e c0       	rjmp	.+124    	; 0x268 <__stack+0x9>
+		}
+	
+		case TX_FIRST:													// After state TX First
+		{
+			USI_UART_state.RX_TX_state = TX_SECOND;						// Set state to TX Second
+ 1ec:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 1f0:	88 7f       	andi	r24, 0xF8	; 248
+ 1f2:	86 60       	ori	r24, 0x06	; 6
+ 1f4:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+														
+			USIDR =  UART_TXBuf[UART_TxTail].Tx2;						// Reload the USIDR with the rest of the data and stop-bits.
+ 1f8:	e0 91 b2 00 	lds	r30, 0x00B2	; 0x8000b2 <UART_TxTail>
+ 1fc:	f0 e0       	ldi	r31, 0x00	; 0
+ 1fe:	ee 0f       	add	r30, r30
+ 200:	ff 1f       	adc	r31, r31
+ 202:	e0 58       	subi	r30, 0x80	; 128
+ 204:	ff 4f       	sbci	r31, 0xFF	; 255
+ 206:	81 81       	ldd	r24, Z+1	; 0x01
+ 208:	8f b9       	out	0x0f, r24	; 15
+			USISR |= (USI_COUNTER_SEED_TX_SECOND);						// Preload the USI counter with second seed to generate interrupt.
+ 20a:	8e b1       	in	r24, 0x0e	; 14
+ 20c:	8c 60       	ori	r24, 0x0C	; 12
+ 20e:	8e b9       	out	0x0e, r24	; 14
+			
+			break;
+ 210:	2b c0       	rjmp	.+86     	; 0x268 <__stack+0x9>
+		}
+	
+		case TX_SECOND:													// After state TX Second
+		{	
+			UART_TxTail = (UART_TxTail + 1) & UART_TX_BUFFER_MASK;		// Store new index of Tail for next transmission
+ 212:	80 91 b2 00 	lds	r24, 0x00B2	; 0x8000b2 <UART_TxTail>
+ 216:	8f 5f       	subi	r24, 0xFF	; 255
+ 218:	8f 70       	andi	r24, 0x0F	; 15
+ 21a:	80 93 b2 00 	sts	0x00B2, r24	; 0x8000b2 <UART_TxTail>
+			UART_TxBuf_Count--;											// Decrement the stored data
+ 21e:	80 91 b1 00 	lds	r24, 0x00B1	; 0x8000b1 <UART_TxBuf_Count>
+ 222:	81 50       	subi	r24, 0x01	; 1
+ 224:	80 93 b1 00 	sts	0x00B1, r24	; 0x8000b1 <UART_TxBuf_Count>
+								
+			
+			if (UART_TxBuf_Count > 0)									// Check for further data in Buffer
+ 228:	80 91 b1 00 	lds	r24, 0x00B1	; 0x8000b1 <UART_TxBuf_Count>
+ 22c:	88 23       	and	r24, r24
+ 22e:	99 f0       	breq	.+38     	; 0x256 <__DATA_REGION_LENGTH__+0x56>
+			{
+				USI_UART_state.RX_TX_state = TX_FIRST;					// Set state to TX First again
+ 230:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 234:	88 7f       	andi	r24, 0xF8	; 248
+ 236:	85 60       	ori	r24, 0x05	; 5
+ 238:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+				
+				USIDR = UART_TXBuf[UART_TxTail].Tx1;					// Copy (initial high state,) start-bit and 5 LSB of original data (5 MSB
+ 23c:	e0 91 b2 00 	lds	r30, 0x00B2	; 0x8000b2 <UART_TxTail>
+ 240:	f0 e0       	ldi	r31, 0x00	; 0
+ 242:	ee 0f       	add	r30, r30
+ 244:	ff 1f       	adc	r31, r31
+ 246:	e0 58       	subi	r30, 0x80	; 128
+ 248:	ff 4f       	sbci	r31, 0xFF	; 255
+ 24a:	80 81       	ld	r24, Z
+ 24c:	8f b9       	out	0x0f, r24	; 15
+				USISR |= (USI_COUNTER_SEED_TX_FIRST);					// Preload the USI counter to generate interrupt.
+ 24e:	8e b1       	in	r24, 0x0e	; 14
+ 250:	89 60       	ori	r24, 0x09	; 9
+ 252:	8e b9       	out	0x0e, r24	; 14
+ 254:	09 c0       	rjmp	.+18     	; 0x268 <__stack+0x9>
+			}
+			else														// Else leave transmit mode.
+			{
+				USI_UART_state.RX_TX_state = WAIT_ON_RX_OR_TX;			// Set Status to Wait on RX or TX. Line is free.
+ 256:	80 91 b4 00 	lds	r24, 0x00B4	; 0x8000b4 <USI_UART_state>
+ 25a:	88 7f       	andi	r24, 0xF8	; 248
+ 25c:	80 93 b4 00 	sts	0x00B4, r24	; 0x8000b4 <USI_UART_state>
+
+				TCCR0B  = (0<<CS02)|(0<<CS01)|(0<<CS00);				// Stop Timer0.
+ 260:	13 be       	out	0x33, r1	; 51
+				PORTB |=  (1<<PB1);										// Enable pull up on USI DO pin.
+ 262:	c1 9a       	sbi	0x18, 1	; 24
+				DDRB  &= ~(1<<PB1);										// Set USI DO pin as input, to not disturb RX
+ 264:	b9 98       	cbi	0x17, 1	; 23
+				USICR = 0;												// Disable USI.
+ 266:	1d b8       	out	0x0d, r1	; 13
+		default:
+		{
+			break;
+		}
+	}
+ 268:	ff 91       	pop	r31
+ 26a:	ef 91       	pop	r30
+ 26c:	8f 91       	pop	r24
+ 26e:	1f 90       	pop	r1
+ 270:	1f be       	out	0x3f, r1	; 63
+ 272:	1f 90       	pop	r1
+ 274:	18 95       	reti
+
+Disassembly of section .text.libgcc:
+
+00000770 <__tablejump2__>:
+ 770:	ee 0f       	add	r30, r30
+ 772:	ff 1f       	adc	r31, r31
+ 774:	05 90       	lpm	r0, Z+
+ 776:	f4 91       	lpm	r31, Z
+ 778:	e0 2d       	mov	r30, r0
+ 77a:	09 94       	ijmp
+
+Disassembly of section .text.__dummy_fini:
+
+0000077e <_fini>:
+ 77e:	08 95       	ret
+
+Disassembly of section .text.__dummy_funcs_on_exit:
+
+00000780 <__funcs_on_exit>:
+ 780:	08 95       	ret
+
+Disassembly of section .text.__dummy_simulator_exit:
+
+00000782 <__simulator_exit>:
+ 782:	08 95       	ret
+
+Disassembly of section .text.exit:
+
+00000762 <exit>:
+ 762:	ec 01       	movw	r28, r24
+ 764:	0d d0       	rcall	.+26     	; 0x780 <__funcs_on_exit>
+ 766:	0b d0       	rcall	.+22     	; 0x77e <_fini>
+ 768:	ce 01       	movw	r24, r28
+ 76a:	0b d0       	rcall	.+22     	; 0x782 <__simulator_exit>
+ 76c:	ce 01       	movw	r24, r28
+ 76e:	0a d0       	rcall	.+20     	; 0x784 <_Exit>
+
+Disassembly of section .text._Exit:
+
+00000784 <_Exit>:
+ 784:	86 dc       	rcall	.-1780   	; 0x92 <_exit>
+
+Disassembly of section .text.avrlibc:
+
+00000742 <eeprom_read_byte>:
+ 742:	cb 01       	movw	r24, r22
+ 744:	e1 99       	sbic	0x1c, 1	; 28
+ 746:	fe cf       	rjmp	.-4      	; 0x744 <eeprom_read_byte+0x2>
+ 748:	9f bb       	out	0x1f, r25	; 31
+ 74a:	8e bb       	out	0x1e, r24	; 30
+ 74c:	e0 9a       	sbi	0x1c, 0	; 28
+ 74e:	99 27       	eor	r25, r25
+ 750:	8d b3       	in	r24, 0x1d	; 29
+ 752:	08 95       	ret
